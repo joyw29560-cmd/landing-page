@@ -1,2578 +1,843 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="google-site-verification" content="sTwMfDb_GpOt7GlA-7WZFvlx0SGSXkiC7YZSowxO9no" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ĐỨC THÀNH - Công Ty Cổ Phần Chế Biến Gỗ Đức Thành | Xuất Khẩu Lao Động & Cung Ứng Nguồn Nhân Lực Quốc Tế</title>
-  <meta name="description" content="CÔNG TY CỔ PHẦN CHẾ BIẾN GỖ ĐỨC THÀNH (Mã số thuế: 0301449014) - Đơn vị hàng đầu Việt Nam về xuất khẩu lao động Nhật Bản, Hàn Quốc, Đài Loan, Châu Âu và cung ứng nguồn nhân lực uy tín.">
-  <meta name="keywords" content="Đức Thành, Công ty cổ phần Chế biến Gỗ Đức Thành, 0301449014, Xuất khẩu lao động, XKLĐ Nhật Bản, XKLĐ Hàn Quốc, XKLĐ Đài Loan, Kỹ sư Nhật Bản, Tokutei Ginou, Cung ứng lao động">
-  
-  <!-- Open Graph / Meta -->
-  <meta property="og:title" content="DUCTHANH WOOD PROCESSING JOINT STOCK COMPANY - Cung Ứng Nguồn Nhân Lực Uy Tín">
-  <meta property="og:description" content="Giấy chứng nhận ĐKKD: 0301449014 | Trụ sở: 221/4 Phan Huy Ích, P. An Hội Tây, TP. Hồ Chí Minh. Hotlines: +84562401411">
-  <meta property="og:image" content="assets/images/hero.jpg">
-  
-  <!-- Font Awesome CDN & Google Fonts -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <style>
-    /* -------------------------------------------------------------
-       CÔNG TY CỔ PHẦN CHẾ BIẾN GỖ ĐỨC THÀNH - DESIGN SYSTEM & EMBEDDED STYLES
-       ------------------------------------------------------------- */
-    :root {
-      --primary-navy: #0b2545;
-      --primary-blue: #134074;
-      --accent-blue: #2563eb;
-      --accent-blue-hover: #1d4ed8;
-      --gold-accent: #d4af37;
-      --gold-glow: #f59e0b;
-      --emerald-trust: #059669;
-      --emerald-light: #d1fae5;
-      --text-main: #0f172a;
-      --text-muted: #475569;
-      --text-light: #94a3b8;
-      --bg-light: #f8fafc;
-      --bg-card: #ffffff;
-      --bg-dark: #071327;
-      --border-light: #e2e8f0;
-      --border-gold: rgba(212, 175, 55, 0.4);
-      --shadow-sm: 0 2px 8px rgba(11, 37, 69, 0.05);
-      --shadow-md: 0 8px 24px rgba(11, 37, 69, 0.08);
-      --shadow-lg: 0 16px 40px rgba(11, 37, 69, 0.12);
-      --shadow-gold: 0 8px 24px rgba(212, 175, 55, 0.25);
-      --radius-sm: 8px;
-      --radius-md: 14px;
-      --radius-lg: 20px;
-      --radius-full: 9999px;
-      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-      font-size: 16px;
-    }
-
-    body {
-      font-family: 'Plus Jakarta Sans', 'Be Vietnam Pro', sans-serif;
-      color: var(--text-main);
-      background-color: #ffffff;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-      transition: var(--transition);
-    }
-
-    ul {
-      list-style: none;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    /* UTILITY CLASSES & CONTAINER */
-    .container {
-      width: 100%;
-      max-width: 1240px;
-      margin: 0 auto;
-      padding: 0 1.5rem;
-    }
-
-    .section-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.4rem 1rem;
-      background: rgba(37, 99, 235, 0.08);
-      color: var(--accent-blue);
-      font-weight: 700;
-      font-size: 0.85rem;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      border-radius: var(--radius-full);
-      margin-bottom: 0.75rem;
-      border: 1px solid rgba(37, 99, 235, 0.2);
-    }
-
-    .section-title {
-      font-size: 2.25rem;
-      font-weight: 800;
-      color: var(--primary-navy);
-      line-height: 1.25;
-      margin-bottom: 1rem;
-    }
-
-    .section-subtitle {
-      font-size: 1.1rem;
-      color: var(--text-muted);
-      max-width: 680px;
-      margin: 0 auto 2.5rem auto;
-    }
-
-    .text-center {
-      text-align: center;
-    }
-
-    .highlight-gold {
-      color: var(--gold-accent);
-      background: linear-gradient(135deg, #d4af37 0%, #f59e0b 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .highlight-blue {
-      color: var(--accent-blue);
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.6rem;
-      padding: 0.85rem 1.75rem;
-      font-weight: 700;
-      font-size: 0.95rem;
-      border-radius: var(--radius-md);
-      cursor: pointer;
-      border: none;
-      transition: var(--transition);
-    }
-
-    .btn-primary {
-      background: linear-gradient(135deg, var(--accent-blue) 0%, #1d4ed8 100%);
-      color: #ffffff;
-      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(37, 99, 235, 0.45);
-    }
-
-    .btn-gold {
-      background: linear-gradient(135deg, #d4af37 0%, #b8860b 100%);
-      color: #ffffff;
-      box-shadow: var(--shadow-gold);
-    }
-
-    .btn-gold:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 10px 28px rgba(212, 175, 55, 0.45);
-    }
-
-    .btn-outline {
-      background: transparent;
-      color: #ffffff;
-      border: 2px solid rgba(255, 255, 255, 0.3);
-    }
-
-    .btn-outline:hover {
-      border-color: #ffffff;
-      background: rgba(255, 255, 255, 0.1);
-    }
-
-    /* TOP BAR & HEADER */
-    .top-bar {
-      background-color: var(--primary-navy);
-      color: #cbd5e1;
-      font-size: 0.85rem;
-      padding: 0.5rem 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .top-bar-wrapper {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-    }
-
-    .top-info {
-      display: flex;
-      align-items: center;
-      gap: 1.5rem;
-      flex-wrap: wrap;
-    }
-
-    .top-info-item {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-
-    .top-info-item i {
-      color: var(--gold-accent);
-    }
-
-    .top-badge-mst {
-      background: rgba(212, 175, 55, 0.15);
-      color: #fef08a;
-      padding: 0.2rem 0.6rem;
-      border-radius: 4px;
-      font-weight: 700;
-      border: 1px solid rgba(212, 175, 55, 0.3);
-    }
-
-    /* NAVBAR */
-    .navbar {
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      background-color: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-light);
-      transition: var(--transition);
-    }
-
-    .navbar-wrapper {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 80px;
-    }
-
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-    }
-
-    .logo-icon {
-      width: 48px;
-      height: 48px;
-      background: linear-gradient(135deg, var(--primary-navy) 0%, var(--primary-blue) 100%);
-      color: var(--gold-accent);
-      border-radius: var(--radius-md);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.5rem;
-      font-weight: 900;
-      border: 2px solid var(--gold-accent);
-      box-shadow: var(--shadow-sm);
-    }
-
-    .logo-text {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .logo-title {
-      font-size: 1.35rem;
-      font-weight: 900;
-      color: var(--primary-navy);
-      letter-spacing: 0.02em;
-      line-height: 1.1;
-    }
-
-    .logo-subtitle {
-      font-size: 0.7rem;
-      font-weight: 700;
-      color: var(--text-muted);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 1.75rem;
-    }
-
-    .nav-link {
-      font-weight: 600;
-      font-size: 0.95rem;
-      color: var(--primary-navy);
-      position: relative;
-      padding: 0.5rem 0;
-    }
-
-    .nav-link:hover,
-    .nav-link.active {
-      color: var(--accent-blue);
-    }
-
-    .nav-link::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 0%;
-      height: 2px;
-      background: var(--accent-blue);
-      transition: var(--transition);
-      border-radius: 2px;
-    }
-
-    .nav-link:hover::after,
-    .nav-link.active::after {
-      width: 100%;
-    }
-
-    .mobile-toggle {
-      display: none;
-      font-size: 1.5rem;
-      cursor: pointer;
-      color: var(--primary-navy);
-    }
-
-    /* HERO SECTION */
-    .hero {
-      position: relative;
-      background: linear-gradient(135deg, rgba(7, 19, 39, 0.92) 0%, rgba(11, 37, 69, 0.88) 100%),
-                  url('assets/images/hero.jpg') center/cover no-repeat;
-      color: #ffffff;
-      padding: 5rem 0 6rem 0;
-      overflow: hidden;
-    }
-
-    .hero-overlay {
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(circle at 80% 20%, rgba(37, 99, 235, 0.25) 0%, transparent 50%);
-      pointer-events: none;
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 3rem;
-      align-items: center;
-    }
-
-    .hero-content {
-      z-index: 2;
-    }
-
-    .hero-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.6rem;
-      background: rgba(212, 175, 55, 0.15);
-      border: 1px solid rgba(212, 175, 55, 0.4);
-      color: #fde047;
-      padding: 0.5rem 1.2rem;
-      border-radius: var(--radius-full);
-      font-size: 0.85rem;
-      font-weight: 700;
-      margin-bottom: 1.5rem;
-      backdrop-filter: blur(8px);
-    }
-
-    .hero-title {
-      font-size: 3rem;
-      font-weight: 900;
-      line-height: 1.15;
-      margin-bottom: 1.25rem;
-      letter-spacing: -0.02em;
-    }
-
-    .hero-desc {
-      font-size: 1.15rem;
-      color: #cbd5e1;
-      margin-bottom: 2rem;
-      max-width: 620px;
-    }
-
-    .hero-actions {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      margin-bottom: 1.5rem;
-    }
-
-    /* Legal Certificate Card in Hero */
-    .hero-legal-card {
-      background: rgba(255, 255, 255, 0.08);
-      backdrop-filter: blur(16px);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      border-radius: var(--radius-lg);
-      padding: 1.75rem;
-      color: #ffffff;
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
-      position: relative;
-    }
-
-    .hero-legal-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: linear-gradient(90deg, var(--gold-accent), var(--accent-blue));
-      border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-    }
-
-    .legal-card-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 1rem;
-      padding-bottom: 0.75rem;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .legal-card-header h4 {
-      font-size: 1.1rem;
-      font-weight: 800;
-      color: #ffffff;
-    }
-
-    .verified-stamp {
-      background: rgba(16, 185, 129, 0.2);
-      color: #34d399;
-      border: 1px solid rgba(52, 211, 153, 0.4);
-      font-size: 0.75rem;
-      font-weight: 800;
-      padding: 0.25rem 0.6rem;
-      border-radius: var(--radius-full);
-      display: flex;
-      align-items: center;
-      gap: 0.3rem;
-    }
-
-    .legal-info-list {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-    }
-
-    .legal-info-item {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .legal-info-label {
-      font-size: 0.75rem;
-      color: #94a3b8;
-      text-transform: uppercase;
-      font-weight: 600;
-    }
-
-    .legal-info-val {
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: #f8fafc;
-    }
-
-    /* Stats Counter Bar */
-    .hero-stats {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 1.5rem;
-      background: var(--primary-navy);
-      border-radius: var(--radius-lg);
-      padding: 2rem;
-      margin-top: -3rem;
-      position: relative;
-      z-index: 10;
-      box-shadow: var(--shadow-lg);
-      border: 1px solid rgba(212, 175, 55, 0.2);
-    }
-
-    .stat-box {
-      text-align: center;
-      border-right: 1px solid rgba(255, 255, 255, 0.1);
-      padding: 0 1rem;
-    }
-
-    .stat-box:last-child {
-      border-right: none;
-    }
-
-    .stat-num {
-      font-size: 2.25rem;
-      font-weight: 900;
-      color: var(--gold-accent);
-      line-height: 1;
-      margin-bottom: 0.4rem;
-    }
-
-    .stat-desc {
-      font-size: 0.85rem;
-      color: #cbd5e1;
-      font-weight: 600;
-    }
-
-    /* LEGAL CREDENTIALS & TRUST */
-    .legal-section {
-      padding: 6rem 0 5rem 0;
-      background-color: var(--bg-light);
-    }
-
-    .legal-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2.5rem;
-      align-items: center;
-    }
-
-    .cert-card {
-      background: #ffffff;
-      border-radius: var(--radius-lg);
-      padding: 2rem;
-      box-shadow: var(--shadow-md);
-      border: 1px solid var(--border-light);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .cert-header {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-      border-bottom: 2px solid var(--bg-light);
-      padding-bottom: 1rem;
-    }
-
-    .cert-icon {
-      width: 54px;
-      height: 54px;
-      background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(245, 158, 11, 0.15) 100%);
-      color: var(--gold-accent);
-      border-radius: var(--radius-md);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.75rem;
-      border: 1px solid var(--border-gold);
-    }
-
-    .cert-title-box h3 {
-      font-size: 1.2rem;
-      font-weight: 800;
-      color: var(--primary-navy);
-    }
-
-    .cert-title-box p {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-
-    .cert-details {
-      display: flex;
-      flex-direction: column;
-      gap: 0.9rem;
-    }
-
-    .cert-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.6rem 0;
-      border-bottom: 1px dashed var(--border-light);
-      font-size: 0.92rem;
-    }
-
-    .cert-row:last-child {
-      border-bottom: none;
-    }
-
-    .cert-label {
-      color: var(--text-muted);
-      font-weight: 500;
-    }
-
-    .cert-value {
-      font-weight: 700;
-      color: var(--primary-navy);
-      text-align: right;
-    }
-
-    .trust-pillars {
-      display: flex;
-      flex-direction: column;
-      gap: 1.25rem;
-    }
-
-    .pillar-card {
-      display: flex;
-      align-items: flex-start;
-      gap: 1.2rem;
-      background: #ffffff;
-      padding: 1.25rem 1.5rem;
-      border-radius: var(--radius-md);
-      border: 1px solid var(--border-light);
-      box-shadow: var(--shadow-sm);
-      transition: var(--transition);
-    }
-
-    .pillar-card:hover {
-      border-color: var(--accent-blue);
-      transform: translateX(6px);
-      box-shadow: var(--shadow-md);
-    }
-
-    .pillar-icon {
-      width: 44px;
-      height: 44px;
-      border-radius: var(--radius-md);
-      background: rgba(37, 99, 235, 0.1);
-      color: var(--accent-blue);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.25rem;
-      flex-shrink: 0;
-    }
-
-    .pillar-content h4 {
-      font-size: 1.05rem;
-      font-weight: 800;
-      color: var(--primary-navy);
-      margin-bottom: 0.3rem;
-    }
-
-    .pillar-content p {
-      font-size: 0.88rem;
-      color: var(--text-muted);
-    }
-
-    /* MARKETS & DESTINATIONS */
-    .markets-section {
-      padding: 5rem 0;
-    }
-
-    .markets-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-      gap: 1.75rem;
-    }
-
-    .market-card {
-      background: var(--bg-card);
-      border-radius: var(--radius-lg);
-      border: 1px solid var(--border-light);
-      box-shadow: var(--shadow-sm);
-      overflow: hidden;
-      transition: var(--transition);
-      display: flex;
-      flex-direction: column;
-    }
-
-    .market-card:hover {
-      transform: translateY(-8px);
-      box-shadow: var(--shadow-lg);
-      border-color: rgba(37, 99, 235, 0.3);
-    }
-
-    .market-banner {
-      height: 180px;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .market-banner img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 0.5s ease;
-    }
-
-    .market-card:hover .market-banner img {
-      transform: scale(1.08);
-    }
-
-    .market-flag {
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
-      background: rgba(255, 255, 255, 0.95);
-      padding: 0.3rem 0.8rem;
-      border-radius: var(--radius-full);
-      font-size: 0.8rem;
-      font-weight: 800;
-      color: var(--primary-navy);
-      box-shadow: var(--shadow-sm);
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-
-    .market-body {
-      padding: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-    }
-
-    .market-title {
-      font-size: 1.25rem;
-      font-weight: 800;
-      color: var(--primary-navy);
-      margin-bottom: 0.5rem;
-    }
-
-    .market-salary {
-      font-size: 1.1rem;
-      font-weight: 800;
-      color: var(--emerald-trust);
-      margin-bottom: 1rem;
-    }
-
-    .market-features {
-      margin-bottom: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      font-size: 0.88rem;
-      color: var(--text-muted);
-    }
-
-    .market-features li {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .market-features li i {
-      color: var(--emerald-trust);
-      font-size: 0.8rem;
-    }
-
-    .market-footer {
-      margin-top: auto;
-      padding-top: 1rem;
-      border-top: 1px solid var(--border-light);
-    }
-
-    /* HOT RECRUITMENT ORDERS */
-    .jobs-section {
-      padding: 5rem 0;
-      background-color: var(--bg-light);
-    }
-
-    .filter-tabs {
-      display: flex;
-      justify-content: center;
-      gap: 0.75rem;
-      margin-bottom: 2.5rem;
-      flex-wrap: wrap;
-    }
-
-    .tab-btn {
-      padding: 0.6rem 1.4rem;
-      border-radius: var(--radius-full);
-      font-weight: 700;
-      font-size: 0.9rem;
-      background: #ffffff;
-      color: var(--text-muted);
-      border: 1px solid var(--border-light);
-      cursor: pointer;
-      transition: var(--transition);
-    }
-
-    .tab-btn.active,
-    .tab-btn:hover {
-      background: var(--accent-blue);
-      color: #ffffff;
-      border-color: var(--accent-blue);
-      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
-    }
-
-    .jobs-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 1.75rem;
-    }
-
-    .job-card {
-      background: #ffffff;
-      border-radius: var(--radius-lg);
-      border: 1px solid var(--border-light);
-      padding: 1.75rem;
-      box-shadow: var(--shadow-sm);
-      transition: var(--transition);
-      display: flex;
-      flex-direction: column;
-      position: relative;
-    }
-
-    .job-card:hover {
-      transform: translateY(-5px);
-      box-shadow: var(--shadow-md);
-      border-color: var(--accent-blue);
-    }
-
-    .job-badge-hot {
-      position: absolute;
-      top: 1.25rem;
-      right: 1.25rem;
-      background: #ef4444;
-      color: #ffffff;
-      font-size: 0.75rem;
-      font-weight: 800;
-      padding: 0.2rem 0.6rem;
-      border-radius: 4px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .job-market-tag {
-      display: inline-block;
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--accent-blue);
-      margin-bottom: 0.4rem;
-    }
-
-    .job-title {
-      font-size: 1.2rem;
-      font-weight: 800;
-      color: var(--primary-navy);
-      margin-bottom: 0.75rem;
-    }
-
-    .job-salary-box {
-      background: rgba(5, 150, 105, 0.08);
-      border-left: 4px solid var(--emerald-trust);
-      padding: 0.6rem 1rem;
-      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-      margin-bottom: 1.25rem;
-    }
-
-    .job-salary-amount {
-      font-size: 1.15rem;
-      font-weight: 900;
-      color: var(--emerald-trust);
-    }
-
-    .job-salary-sub {
-      font-size: 0.78rem;
-      color: var(--text-muted);
-    }
-
-    .job-meta-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.6rem;
-      margin-bottom: 1.5rem;
-      font-size: 0.88rem;
-      color: var(--text-muted);
-    }
-
-    .job-meta-item {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .job-meta-item span:first-child {
-      font-weight: 500;
-    }
-
-    .job-meta-item span:last-child {
-      font-weight: 700;
-      color: var(--primary-navy);
-    }
-
-    .job-action {
-      margin-top: auto;
-    }
-
-    /* 6-STEP PROCESS */
-    .process-section {
-      padding: 5rem 0;
-    }
-
-    .process-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 1.5rem;
-      position: relative;
-    }
-
-    .process-step {
-      background: #ffffff;
-      border: 1px solid var(--border-light);
-      border-radius: var(--radius-lg);
-      padding: 1.75rem 1.25rem;
-      text-align: center;
-      box-shadow: var(--shadow-sm);
-      transition: var(--transition);
-      position: relative;
-    }
-
-    .process-step:hover {
-      transform: translateY(-6px);
-      border-color: var(--gold-accent);
-      box-shadow: var(--shadow-md);
-    }
-
-    .step-num {
-      width: 42px;
-      height: 42px;
-      background: linear-gradient(135deg, var(--primary-navy) 0%, var(--primary-blue) 100%);
-      color: var(--gold-accent);
-      font-weight: 900;
-      font-size: 1.1rem;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto 1rem auto;
-      border: 2px solid var(--gold-accent);
-    }
-
-    .step-title {
-      font-size: 1rem;
-      font-weight: 800;
-      color: var(--primary-navy);
-      margin-bottom: 0.5rem;
-    }
-
-    .step-desc {
-      font-size: 0.82rem;
-      color: var(--text-muted);
-      line-height: 1.5;
-    }
-
-    /* SALARY CALCULATOR & SIMULATOR */
-    .calc-section {
-      padding: 5rem 0;
-      background: linear-gradient(135deg, var(--primary-navy) 0%, var(--bg-dark) 100%);
-      color: #ffffff;
-      position: relative;
-    }
-
-    .calc-box {
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(16px);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: var(--radius-lg);
-      padding: 2.5rem;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3rem;
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
-    }
-
-    .calc-inputs {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-    }
-
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-
-    .form-group label {
-      font-size: 0.9rem;
-      font-weight: 700;
-      color: #e2e8f0;
-    }
-
-    .form-select,
-    .form-input {
-      width: 100%;
-      padding: 0.85rem 1rem;
-      border-radius: var(--radius-md);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      background: rgba(11, 37, 69, 0.6);
-      color: #ffffff;
-      font-size: 0.95rem;
-      font-family: inherit;
-      outline: none;
-      transition: var(--transition);
-    }
-
-    .form-select:focus,
-    .form-input:focus {
-      border-color: var(--gold-accent);
-      box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
-    }
-
-    .range-slider {
-      width: 100%;
-      accent-color: var(--gold-accent);
-    }
-
-    .calc-results {
-      background: rgba(255, 255, 255, 0.08);
-      border-radius: var(--radius-md);
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      border: 1px solid rgba(212, 175, 55, 0.3);
-    }
-
-    .res-header {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #cbd5e1;
-      margin-bottom: 1.5rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .res-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 1rem;
-      padding-bottom: 0.75rem;
-      border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
-    }
-
-    .res-label {
-      font-size: 0.9rem;
-      color: #cbd5e1;
-    }
-
-    .res-val {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #ffffff;
-    }
-
-    .res-total-box {
-      background: linear-gradient(135deg, rgba(212, 175, 55, 0.2) 0%, rgba(245, 158, 11, 0.2) 100%);
-      border: 1px solid var(--gold-accent);
-      border-radius: var(--radius-md);
-      padding: 1.25rem;
-      text-align: center;
-      margin-top: 1rem;
-    }
-
-    .res-total-label {
-      font-size: 0.85rem;
-      color: #fde047;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-
-    .res-total-val {
-      font-size: 2rem;
-      font-weight: 900;
-      color: var(--gold-accent);
-    }
-
-    /* ACADEMY SHOWCASE */
-    .academy-section {
-      padding: 5rem 0;
-      background-color: #ffffff;
-    }
-
-    .academy-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3rem;
-      align-items: center;
-    }
-
-    .academy-gallery {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-    }
-
-    .gallery-img {
-      border-radius: var(--radius-md);
-      overflow: hidden;
-      height: 200px;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .gallery-img img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .gallery-img.large {
-      grid-column: span 2;
-      height: 260px;
-    }
-
-    .academy-features {
-      display: flex;
-      flex-direction: column;
-      gap: 1.25rem;
-      margin-top: 1.5rem;
-    }
-
-    .academy-feature-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 1rem;
-    }
-
-    .af-icon {
-      width: 38px;
-      height: 38px;
-      background: rgba(37, 99, 235, 0.1);
-      color: var(--accent-blue);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      flex-shrink: 0;
-    }
-
-    /* FAQ ACCORDION */
-    .faq-section {
-      padding: 5rem 0;
-      background-color: var(--bg-light);
-    }
-
-    .faq-list {
-      max-width: 800px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .faq-item {
-      background: #ffffff;
-      border-radius: var(--radius-md);
-      border: 1px solid var(--border-light);
-      overflow: hidden;
-      box-shadow: var(--shadow-sm);
-      transition: var(--transition);
-    }
-
-    .faq-question {
-      padding: 1.25rem 1.5rem;
-      font-weight: 700;
-      font-size: 1.05rem;
-      color: var(--primary-navy);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: pointer;
-      user-select: none;
-    }
-
-    .faq-question i {
-      color: var(--accent-blue);
-      transition: transform 0.3s ease;
-    }
-
-    .faq-answer {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s ease, padding 0.3s ease;
-      padding: 0 1.5rem;
-      color: var(--text-muted);
-      font-size: 0.95rem;
-      line-height: 1.6;
-    }
-
-    .faq-item.active .faq-answer {
-      max-height: 300px;
-      padding: 0 1.5rem 1.25rem 1.5rem;
-    }
-
-    .faq-item.active .faq-question i {
-      transform: rotate(180deg);
-    }
-
-    /* CONSULTATION FORM */
-    .contact-section {
-      padding: 5rem 0;
-      background: linear-gradient(135deg, var(--bg-light) 0%, #ffffff 100%);
-    }
-
-    .contact-card {
-      background: #ffffff;
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-lg);
-      border: 1px solid var(--border-light);
-      overflow: hidden;
-      display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
-    }
-
-    .contact-form-box {
-      padding: 3rem;
-    }
-
-    .contact-info-box {
-      background: var(--primary-navy);
-      color: #ffffff;
-      padding: 3rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      position: relative;
-    }
-
-    .contact-info-list {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-      margin: 2rem 0;
-    }
-
-    .c-info-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 1rem;
-    }
-
-    .c-info-icon {
-      width: 40px;
-      height: 40px;
-      background: rgba(212, 175, 55, 0.15);
-      color: var(--gold-accent);
-      border-radius: var(--radius-md);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.2rem;
-      flex-shrink: 0;
-    }
-
-    .form-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.25rem;
-      margin-top: 1.5rem;
-    }
-
-    .form-grid .full-width {
-      grid-column: span 2;
-    }
-
-    .light-input {
-      background: var(--bg-light) !important;
-      color: var(--text-main) !important;
-      border: 1px solid var(--border-light) !important;
-    }
-
-    .light-input:focus {
-      border-color: var(--accent-blue) !important;
-      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15) !important;
-    }
-
-    /* MODAL DIALOG */
-    .modal-overlay {
-      position: fixed;
-      inset: 0;
-      background: rgba(7, 19, 39, 0.75);
-      backdrop-filter: blur(6px);
-      z-index: 2000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.3s ease;
-    }
-
-    .modal-overlay.active {
-      opacity: 1;
-      pointer-events: auto;
-    }
-
-    .modal-card {
-      background: #ffffff;
-      border-radius: var(--radius-lg);
-      max-width: 540px;
-      width: 90%;
-      padding: 2.5rem;
-      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
-      position: relative;
-      transform: translateY(20px);
-      transition: transform 0.3s ease;
-    }
-
-    .modal-overlay.active .modal-card {
-      transform: translateY(0);
-    }
-
-    .modal-close {
-      position: absolute;
-      top: 1.25rem;
-      right: 1.25rem;
-      font-size: 1.25rem;
-      color: var(--text-muted);
-      cursor: pointer;
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: var(--transition);
-    }
-
-    .modal-close:hover {
-      background: var(--bg-light);
-      color: var(--primary-navy);
-    }
-
-    /* TOAST NOTIFICATIONS */
-    .toast-box {
-      position: fixed;
-      bottom: 2rem;
-      right: 2rem;
-      z-index: 3000;
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-    }
-
-    .toast {
-      background: var(--primary-navy);
-      color: #ffffff;
-      padding: 1rem 1.5rem;
-      border-radius: var(--radius-md);
-      border-left: 4px solid var(--emerald-trust);
-      box-shadow: var(--shadow-lg);
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      animation: slideInRight 0.3s forwards;
-    }
-
-    @keyframes slideInRight {
-      from { transform: translateX(100%); opacity: 0; }
-      to { transform: translateX(0); opacity: 1; }
-    }
-
-    /* FOOTER */
-    .footer {
-      background-color: var(--bg-dark);
-      color: #cbd5e1;
-      padding: 5rem 0 2rem 0;
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1.5fr;
-      gap: 3rem;
-      margin-bottom: 4rem;
-    }
-
-    .footer-about p {
-      font-size: 0.9rem;
-      color: #94a3b8;
-      margin: 1rem 0;
-    }
-
-    .footer-title {
-      font-size: 1.05rem;
-      font-weight: 800;
-      color: #ffffff;
-      margin-bottom: 1.25rem;
-    }
-
-    .footer-links {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      font-size: 0.9rem;
-    }
-
-    .footer-links a:hover {
-      color: var(--gold-accent);
-    }
-
-    .footer-bottom {
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
-      padding-top: 1.75rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      font-size: 0.85rem;
-      color: #64748b;
-    }
-
-    /* RESPONSIVE DESIGN */
-    @media (max-width: 1024px) {
-      .hero-grid,
-      .legal-grid,
-      .calc-box,
-      .academy-grid,
-      .contact-card,
-      .footer-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-stats {
-        grid-template-columns: 1fr 1fr;
-        margin-top: 2rem;
-      }
-
-      .stat-box {
-        border-right: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        padding-bottom: 1rem;
-      }
-
-      .stat-box:nth-child(2),
-      .stat-box:last-child {
-        border-bottom: none;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .nav-links {
-        display: none;
-      }
-
-      .mobile-toggle {
-        display: block;
-      }
-
-      .hero-title {
-        font-size: 2.25rem;
-      }
-
-      .form-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .form-grid .full-width {
-        grid-column: span 1;
-      }
-
-      .contact-form-box,
-      .contact-info-box {
-        padding: 2rem 1.5rem;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA Foods and Spices | Công ty Cổ phần Thực phẩm và Gia vị TA</title>
+    <meta name="description" content="Công ty Cổ phần Thực phẩm và Gia vị TA (TA Foods and Spices JSC), mã số doanh nghiệp 0317710591. Đăng ký lần đầu ngày 01/03/2023, vốn điều lệ 200 tỷ đồng, đang hoạt động tại TP. Hồ Chí Minh. Điện thoại +84567603394, email joyw29560@gmail.com.">
+    <meta name="theme-color" content="#16352a">
+    <meta property="og:title" content="Công ty Cổ phần Thực phẩm và Gia vị TA">
+    <meta property="og:description" content="TA Foods and Spices Joint Stock Company · MST 0317710591 · Vốn điều lệ 200 tỷ đồng · TP. Hồ Chí Minh.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2316352a'/%3E%3Ctext x='16' y='21' text-anchor='middle' fill='%23f4efe6' font-size='12' font-family='Arial' font-weight='700'%3ETA%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@1,9..144,560&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "CÔNG TY CỔ PHẦN THỰC PHẨM VÀ GIA VỊ TA",
+        "legalName": "CÔNG TY CỔ PHẦN THỰC PHẨM VÀ GIA VỊ TA",
+        "alternateName": ["TA FOODS AND SPICES JOINT STOCK COMPANY", "TA FOODS AND SPICES JSC"],
+        "taxID": "0317710591",
+        "foundingDate": "2023-03-01",
+        "telephone": "+84567603394",
+        "email": "joyw29560@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Lầu 3, Tháp V5, Sunrise City South, Số 23 Nguyễn Hữu Thọ, Phường Tân Hưng",
+            "addressLocality": "Thành phố Hồ Chí Minh",
+            "addressCountry": "VN"
+        }
+    }
+    </script>
+    <style>
+        :root {
+            --ink: #1c1915;
+            --muted: #5c564e;
+            --forest: #16352a;
+            --forest-deep: #0f241c;
+            --cream: #f3eee4;
+            --paper: #fbf8f2;
+            --white: #fffdf9;
+            --line: rgba(28, 25, 21, 0.12);
+            --turmeric: #b8862a;
+            --paprika: #a33b24;
+            --paprika-dark: #8a301c;
+            --saffron: #e4c48a;
+            --shadow: 0 22px 50px rgba(15, 36, 28, 0.12);
+            --sans: "Be Vietnam Pro", "Segoe UI", sans-serif;
+            --serif: "Fraunces", "Times New Roman", serif;
+            --header: 76px;
+        }
+
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            color: var(--ink);
+            background:
+                radial-gradient(circle at 8% -10%, rgba(184, 134, 42, 0.16), transparent 32%),
+                radial-gradient(circle at 100% 0%, rgba(22, 53, 42, 0.08), transparent 26%),
+                var(--cream);
+            font-family: var(--sans);
+            font-size: 1rem;
+            line-height: 1.65;
+        }
+        img, svg { display: block; max-width: 100%; }
+        a { color: inherit; }
+        button, input, textarea { font: inherit; }
+        h1, h2, h3, p { margin: 0; }
+        ::selection { background: var(--saffron); color: var(--ink); }
+        :focus-visible { outline: 3px solid var(--turmeric); outline-offset: 3px; }
+
+        .skip {
+            position: absolute;
+            left: 1rem;
+            top: -4rem;
+            background: var(--forest);
+            color: var(--white);
+            padding: 0.6rem 0.9rem;
+            z-index: 50;
+        }
+        .skip:focus { top: 1rem; }
+
+        .container { width: min(1120px, calc(100% - 2rem)); margin: 0 auto; }
+        h1, h2, h3, p, dd, .hero-en { overflow-wrap: break-word; }
+        section { scroll-margin-top: calc(var(--header) + 12px); }
+
+        .topbar {
+            background: var(--forest-deep);
+            color: #efe7d6;
+            font-size: 0.84rem;
+        }
+        .topbar-inner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 0.25rem 1rem;
+            padding: 0.55rem 0;
+        }
+        .topbar-inner > * { min-width: 0; }
+        .topbar a { color: var(--saffron); font-weight: 600; text-decoration: none; }
+        .topbar a:hover { text-decoration: underline; }
+
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 30;
+            height: var(--header);
+            background: rgba(251, 248, 242, 0.92);
+            backdrop-filter: blur(14px);
+            border-bottom: 1px solid transparent;
+        }
+        .header.is-scrolled { border-bottom-color: var(--line); box-shadow: 0 8px 24px rgba(28, 25, 21, 0.05); }
+        .navbar {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+        .brand { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; }
+        .brand-mark {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: grid;
+            place-items: center;
+            background: var(--forest);
+            color: var(--cream);
+            font-weight: 700;
+            letter-spacing: 0.04em;
+        }
+        .brand-name { display: flex; flex-direction: column; line-height: 1.15; }
+        .brand-name strong { font-size: 0.95rem; letter-spacing: 0.04em; }
+        .brand-name span { font-family: var(--serif); font-style: italic; color: var(--muted); font-size: 0.92rem; }
+
+        .nav-links { display: flex; align-items: center; gap: 1.25rem; }
+        .nav-links a { text-decoration: none; font-weight: 500; font-size: 0.95rem; }
+        .nav-links a:hover { color: var(--paprika); }
+        .nav-call {
+            background: var(--paprika);
+            color: var(--white) !important;
+            border-radius: 999px;
+            padding: 0.62rem 0.95rem;
+            min-height: 44px;
+            display: inline-flex;
+            align-items: center;
+        }
+        .nav-call:hover { background: var(--paprika-dark); color: var(--white) !important; }
+        .nav-toggle {
+            display: none;
+            width: 44px;
+            height: 44px;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            background: var(--white);
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .nav-toggle span { width: 18px; height: 2px; background: var(--ink); display: block; }
+
+        .hero { padding: 3.5rem 0 1rem; }
+        .hero-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+            gap: 3rem;
+            align-items: center;
+        }
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--forest);
+            font-weight: 600;
+            font-size: 0.82rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+        .dot {
+            width: 0.55rem;
+            height: 0.55rem;
+            border-radius: 50%;
+            background: #2f8a52;
+            box-shadow: 0 0 0 5px rgba(47, 138, 82, 0.15);
+        }
+        h1 {
+            font-size: clamp(2.1rem, 4.6vw, 3.7rem);
+            line-height: 1.12;
+            letter-spacing: -0.035em;
+            font-weight: 700;
+        }
+        .hero-en {
+            margin-top: 0.8rem;
+            font-family: var(--serif);
+            font-style: italic;
+            font-size: clamp(1.25rem, 2vw, 1.6rem);
+            color: var(--forest);
+        }
+        .lede { margin-top: 1.1rem; color: var(--muted); font-size: 1.05rem; max-width: 42rem; }
+        .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.6rem; }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            padding: 0.75rem 1.15rem;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: 600;
+            border: 1px solid transparent;
+        }
+        .btn-primary { background: var(--paprika); color: var(--white); }
+        .btn-primary:hover { background: var(--paprika-dark); }
+        .btn-secondary { background: transparent; border-color: rgba(22, 53, 42, 0.28); color: var(--forest); }
+        .btn-secondary:hover { background: rgba(22, 53, 42, 0.06); }
+
+        .dossier {
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(180deg, #1b4032, var(--forest-deep));
+            color: #f6f0e4;
+            border-radius: 28px;
+            padding: 1.6rem;
+            box-shadow: var(--shadow);
+        }
+        .sprig {
+            position: absolute;
+            width: 150px;
+            right: -10px;
+            top: -8px;
+            color: rgba(228, 196, 138, 0.35);
+            pointer-events: none;
+        }
+        .dossier-kicker { color: var(--saffron); font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; }
+        .dossier-code { margin: 0.45rem 0 1rem; font-size: clamp(1.8rem, 3vw, 2.4rem); letter-spacing: 0.04em; font-weight: 700; }
+        .dossier dl { margin: 0; display: grid; gap: 0.85rem; }
+        .dossier div { display: flex; justify-content: space-between; gap: 1rem; padding-top: 0.85rem; border-top: 1px solid rgba(246, 240, 228, 0.16); min-width: 0; }
+        .dossier dt { color: rgba(246, 240, 228, 0.72); font-size: 0.88rem; }
+        .dossier dd { margin: 0; font-weight: 600; text-align: right; min-width: 0; }
+        .status {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            background: rgba(47, 138, 82, 0.18);
+            color: #c9f3d6;
+            border-radius: 999px;
+            padding: 0.15rem 0.55rem;
+            font-size: 0.85rem;
+        }
+
+        .stats { padding: 1.5rem 0 0.5rem; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            background: var(--white);
+            border: 1px solid var(--line);
+            border-radius: 22px;
+            overflow: hidden;
+        }
+        .stat { padding: 1.25rem 1.1rem; }
+        .stat + .stat { border-left: 1px solid var(--line); }
+        .stat b { display: block; font-size: 1.45rem; letter-spacing: -0.03em; color: var(--forest); }
+        .stat span { color: var(--muted); font-size: 0.9rem; }
+
+        .block { padding: 4.5rem 0; }
+        .block-head { max-width: 40rem; margin-bottom: 1.8rem; }
+        .kicker { color: var(--paprika); font-weight: 700; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.45rem; }
+        h2 { font-size: clamp(1.7rem, 3vw, 2.4rem); letter-spacing: -0.03em; line-height: 1.2; }
+        .sub { margin-top: 0.7rem; color: var(--muted); }
+
+        .about-grid, .address-grid, .contact-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 1.5rem;
+        }
+        .panel {
+            background: var(--white);
+            border: 1px solid var(--line);
+            border-radius: 22px;
+            padding: 1.4rem;
+        }
+        .panel p + p { margin-top: 0.85rem; }
+        .identity { display: grid; gap: 0.9rem; align-content: start; }
+        .identity div { padding-bottom: 0.85rem; border-bottom: 1px solid var(--line); }
+        .identity div:last-child { border-bottom: 0; padding-bottom: 0; }
+        .label { display: block; color: var(--muted); font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 0.2rem; }
+        .value { font-weight: 600; }
+
+        .fields { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+        .field {
+            background: var(--white);
+            border-radius: 22px;
+            padding: 1.3rem;
+            border: 1px solid var(--line);
+            min-height: 100%;
+        }
+        .field em {
+            font-style: normal;
+            font-family: var(--serif);
+            font-size: 1.8rem;
+            color: var(--turmeric);
+        }
+        .field h3 { margin: 0.4rem 0 0.45rem; font-size: 1.25rem; }
+        .field p { color: var(--muted); }
+
+        .address-card h3 { font-size: 1.2rem; margin: 0.55rem 0; }
+        .address-card p { color: var(--muted); }
+        .address-card a { color: var(--paprika); font-weight: 600; }
+        .badge {
+            display: inline-block;
+            border-radius: 999px;
+            padding: 0.2rem 0.6rem;
+            background: rgba(22, 53, 42, 0.08);
+            color: var(--forest);
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+        .badge-gold { background: rgba(184, 134, 42, 0.16); color: #7a5a16; }
+
+        .legal { background: var(--forest); color: #f6f0e4; }
+        .legal .kicker { color: var(--saffron); }
+        .legal .sub { color: rgba(246, 240, 228, 0.78); }
+        .registry {
+            background: var(--white);
+            color: var(--ink);
+            border-radius: 24px;
+            padding: 0.4rem 1.3rem;
+        }
+        .registry-row {
+            display: grid;
+            grid-template-columns: minmax(180px, 280px) 1fr;
+            gap: 1rem;
+            padding: 0.95rem 0;
+            border-bottom: 1px solid var(--line);
+        }
+        .registry-row:last-child { border-bottom: 0; }
+        .registry dt { color: var(--muted); font-size: 0.92rem; }
+        .registry dd { margin: 0; font-weight: 600; }
+        .registry a { color: var(--paprika); }
+        .source-note { margin-top: 0.9rem; color: rgba(246, 240, 228, 0.72); font-size: 0.88rem; }
+
+        .related { margin-top: 1.4rem; }
+        .related h3 { margin: 0; font-size: 1.25rem; }
+        .related ul { margin: 0.8rem 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 0.55rem 1rem; }
+        .related li {
+            background: rgba(255, 253, 249, 0.06);
+            border: 1px solid rgba(246, 240, 228, 0.12);
+            border-radius: 12px;
+            padding: 0.7rem 0.8rem;
+            font-size: 0.92rem;
+        }
+
+        .contact-grid .panel h2 { margin-bottom: 0.4rem; }
+        .phone-link {
+            display: block;
+            margin: 1rem 0;
+            text-decoration: none;
+            font-size: clamp(1.8rem, 3vw, 2.4rem);
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            color: var(--forest);
+        }
+        .phone-link:hover { color: var(--paprika); }
+        form { display: grid; gap: 0.8rem; }
+        label { font-weight: 600; font-size: 0.92rem; }
+        input, textarea {
+            width: 100%;
+            border: 1px solid var(--line);
+            background: var(--paper);
+            border-radius: 12px;
+            padding: 0.8rem 0.85rem;
+            color: var(--ink);
+        }
+        textarea { resize: vertical; min-height: 120px; }
+        .form-note { color: var(--muted); font-size: 0.86rem; }
+
+        .footer { background: var(--forest-deep); color: rgba(246, 240, 228, 0.8); padding: 2.5rem 0 6rem; }
+        .footer-grid { display: grid; grid-template-columns: 1.4fr 0.8fr 1fr; gap: 1.5rem; }
+        .footer h2 { color: var(--white); font-size: 1rem; letter-spacing: 0.04em; }
+        .footer a { color: var(--saffron); }
+        .footer ul { margin: 0.6rem 0 0; padding: 0; list-style: none; }
+        .footer li + li { margin-top: 0.35rem; }
+        .footer-bottom { margin-top: 1.6rem; padding-top: 1rem; border-top: 1px solid rgba(246, 240, 228, 0.12); font-size: 0.88rem; }
+
+        .float-call {
+            position: fixed;
+            right: 1rem;
+            bottom: 1rem;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            background: var(--paprika);
+            color: white;
+            box-shadow: 0 12px 30px rgba(163, 59, 36, 0.35);
+            z-index: 25;
+        }
+        .float-call:hover { background: var(--paprika-dark); }
+
+        .toast {
+            position: fixed;
+            left: 50%;
+            bottom: 5.4rem;
+            transform: translate(-50%, 12px);
+            width: min(520px, calc(100% - 2rem));
+            background: var(--forest-deep);
+            color: #f6f0e4;
+            border-radius: 16px;
+            padding: 0.9rem 1rem;
+            box-shadow: var(--shadow);
+            opacity: 0;
+            pointer-events: none;
+            z-index: 40;
+        }
+        .toast.is-visible { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+
+        @media (max-width: 860px) {
+            .topbar-inner { flex-direction: column; align-items: stretch; gap: 0.15rem; }
+            .topbar-inner span { max-width: 100%; }
+            .nav-toggle { display: inline-flex; }
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: calc(var(--header) + 8px);
+                right: 1rem;
+                width: min(320px, calc(100vw - 2rem));
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.2rem;
+                background: var(--white);
+                border: 1px solid var(--line);
+                border-radius: 16px;
+                padding: 0.6rem;
+                box-shadow: var(--shadow);
+            }
+            .nav-links.is-open { display: flex; }
+            .nav-links a { padding: 0.7rem 0.6rem; border-radius: 10px; }
+            .nav-links a:hover { background: var(--cream); }
+            .nav-call { justify-content: center; }
+            .hero-grid, .about-grid, .address-grid, .contact-grid, .fields, .footer-grid, .related ul { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: 1fr 1fr; }
+            .stat:nth-child(odd) { border-left: 0; }
+            .stat:nth-child(n + 3) { border-top: 1px solid var(--line); }
+            .registry-row { grid-template-columns: 1fr; gap: 0.2rem; }
+            .hero { padding-top: 2rem; }
+            .block { padding: 3.2rem 0; }
+            .dossier div { flex-direction: column; align-items: flex-start; gap: 0.15rem; }
+            .dossier dd { text-align: left; }
+        }
+
+        @media (max-width: 560px) {
+            .stats-grid { grid-template-columns: 1fr; }
+            .stat + .stat { border-left: 0; border-top: 1px solid var(--line); }
+            .actions .btn { width: 100%; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { transition: none !important; animation: none !important; }
+        }
+    </style>
 </head>
 <body>
+    <a class="skip" href="#noi-dung">Đi tới nội dung</a>
 
-  <!-- TOP INFORMATION BAR -->
-  <div class="top-bar">
-    <div class="container top-bar-wrapper">
-      <div class="top-info">
-        <div class="top-info-item">
-          <i class="fa-solid fa-file-contract"></i>
-          <span>Mã số thuế / MST:</span>
-          <span class="top-badge-mst">0301449014</span>
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <span>MST 0317710591 · Đăng ký lần đầu 01/03/2023 · Đang hoạt động</span>
+            <div>
+                <a href="mailto:joyw29560@gmail.com" style="margin-right: 0.85rem;">joyw29560@gmail.com</a>
+                <a href="tel:+84567603394">+84 567 603 394</a>
+            </div>
         </div>
-        <div class="top-info-item">
-          <i class="fa-solid fa-phone"></i>
-          <span>Hotline: <strong>+84562401411</strong></span>
-        </div>
-        <div class="top-info-item">
-          <i class="fa-solid fa-envelope"></i>
-          <span>joyw29560@gmail.com</span>
-        </div>
-      </div>
-      <div class="top-info">
-        <div class="top-info-item">
-          <i class="fa-solid fa-location-dot"></i>
-          <span>221/4 Phan Huy Ích, P. An Hội Tây, TP. Hồ Chí Minh</span>
-        </div>
-      </div>
     </div>
-  </div>
 
-  <!-- NAVIGATION NAVBAR -->
-  <nav class="navbar" id="navbar">
-    <div class="container navbar-wrapper">
-      <a href="#" class="logo">
-        <div class="logo-icon">Đ</div>
-        <div class="logo-text">
-          <span class="logo-title">ĐỨC THÀNH</span>
-          <span class="logo-subtitle">CÔNG TY CP ĐỨC THÀNH</span>
-        </div>
-      </a>
-
-      <ul class="nav-links">
-        <li><a href="#about" class="nav-link">Giới Thiệu</a></li>
-        <li><a href="#legal" class="nav-link">Hồ Sơ Pháp Lý</a></li>
-        <li><a href="#markets" class="nav-link">Thị Trường XKLĐ</a></li>
-        <li><a href="#jobs" class="nav-link">Đơn Hàng Hot</a></li>
-        <li><a href="#calculator" class="nav-link">Tính Thu Nhập</a></li>
-        <li><a href="#academy" class="nav-link">Trung Tâm Đào Tạo</a></li>
-        <li><a href="#faq" class="nav-link">Hỏi Đáp</a></li>
-      </ul>
-
-      <button class="btn btn-primary js-open-modal">
-        <i class="fa-solid fa-paper-plane"></i>
-        Đăng Ký Tư Vấn
-      </button>
-
-      <div class="mobile-toggle" id="mobileToggle">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-    </div>
-  </nav>
-
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="hero-overlay"></div>
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <div class="hero-badge">
-          <i class="fa-solid fa-shield-halved"></i>
-          <span>Thương Hiệu Xuất Khẩu Lao Động Hàng Đầu Việt Nam</span>
-        </div>
-        
-        <h1 class="hero-title">
-          Khát Vọng Vươn Tầm <br>
-          <span class="highlight-gold">Chắp Cánh Nguồn Nhân Lực Việt</span>
-        </h1>
-        
-        <p class="hero-desc">
-          Công ty Cổ phần Chế biến Gỗ Đức Thành (Mã số thuế: 0301449014) là cầu nối uy tín mang đến cơ hội việc làm thu nhập cao từ <strong>30 - 65 triệu/tháng</strong> tại Nhật Bản, Hàn Quốc, Đài Loan & Châu Âu với quy trình minh bạch 100%.
-        </p>
-
-        <div class="hero-actions">
-          <button class="btn btn-gold js-open-modal">
-            <i class="fa-solid fa-user-plus"></i>
-            Đăng Ký XKLĐ Ngay
-          </button>
-          <a href="#jobs" class="btn btn-outline">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            Xem Đơn Hàng Mới Nhất
-          </a>
-        </div>
-      </div>
-
-      <!-- Quick Legal Verification Card in Hero -->
-      <div class="hero-legal-card">
-        <div class="legal-card-header">
-          <h4>Thông Tin Doanh Nghiệp Official</h4>
-          <div class="verified-stamp">
-            <i class="fa-solid fa-circle-check"></i> Đã Xác Minh
-          </div>
-        </div>
-        <div class="legal-info-list">
-          <div class="legal-info-item">
-            <span class="legal-info-label">Tên Doanh Nghiệp</span>
-            <span class="legal-info-val">CTY CP ĐỨC THÀNH</span>
-          </div>
-          <div class="legal-info-item">
-            <span class="legal-info-label">Mã Số Doanh Nghiệp</span>
-            <span class="legal-info-val highlight-gold">0301449014</span>
-          </div>
-          <div class="legal-info-item">
-            <span class="legal-info-label">Vốn Điều Lệ</span>
-            <span class="legal-info-val">238.835.570.000 VNĐ</span>
-          </div>
-          <div class="legal-info-item">
-            <span class="legal-info-label">Chủ tịch HĐQT</span>
-            <span class="legal-info-val">LÊ HẢI LIỄU</span>
-          </div>
-          <div class="legal-info-item" style="grid-column: span 2;">
-            <span class="legal-info-label">Địa Chỉ Trụ Sở Chính</span>
-            <span class="legal-info-val" style="font-size: 0.85rem; color: #cbd5e1;">221/4 Phan Huy Ích, P. An Hội Tây, TP. Hồ Chí Minh</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- STATS COUNTER BAR -->
-  <div class="container">
-    <div class="hero-stats">
-      <div class="stat-box">
-        <div class="stat-num" data-target="25" data-suffix="+">0</div>
-        <div class="stat-desc">Năm Kinh Nghiệm XKLĐ</div>
-      </div>
-      <div class="stat-box">
-        <div class="stat-num" data-target="50000" data-suffix="+">0</div>
-        <div class="stat-desc">Lao Động Xuất Cảnh Thành Công</div>
-      </div>
-      <div class="stat-box">
-        <div class="stat-num" data-target="10" data-suffix="+">0</div>
-        <div class="stat-desc">Quốc Gia Đối Tác</div>
-      </div>
-      <div class="stat-box">
-        <div class="stat-num" data-target="100" data-suffix="%">0</div>
-        <div class="stat-desc">Minh Bạch Pháp Lý & Chi Phí</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- SECTION: LEGAL CREDENTIALS & TRUST (HỒ SƠ PHÁP LÝ) -->
-  <section class="legal-section" id="legal">
-    <div class="container">
-      <div class="text-center">
-        <span class="section-tag"><i class="fa-solid fa-award"></i> Năng Lực & Pháp Lý</span>
-        <h2 class="section-title">Hồ Sơ Doanh Nghiệp Rõ Ràng, Minh Bạch</h2>
-        <p class="section-subtitle">Công ty CP Đức Thành hoạt động dưới sự quản lý của Thuế Thành phố Hồ Chí Minh, hồ sơ pháp lý minh bạch, mang lại sự an tâm tuyệt đối cho người lao động.</p>
-      </div>
-
-      <div class="legal-grid">
-        <!-- Certificate Specifications Card -->
-        <div class="cert-card">
-          <div class="cert-header">
-            <div class="cert-icon">
-              <i class="fa-solid fa-stamp"></i>
-            </div>
-            <div class="cert-title-box">
-              <h3>GIẤY CHỨNG NHẬN ĐĂNG KÝ DOANH NGHIỆP</h3>
-              <p>Công Ty Cổ Phần (Ngày cấp MST: 24/10/1998)</p>
-            </div>
-          </div>
-          
-          <div class="cert-details">
-            <div class="cert-row">
-              <span class="cert-label">Mã số doanh nghiệp / MST:</span>
-              <span class="cert-value highlight-blue">0301449014</span>
-            </div>
-            <div class="cert-row">
-              <span class="cert-label">Tên tiếng Việt:</span>
-              <span class="cert-value">CÔNG TY CỔ PHẦN CHẾ BIẾN GỖ ĐỨC THÀNH</span>
-            </div>
-            <div class="cert-row">
-              <span class="cert-label">Tên tiếng nước ngoài:</span>
-              <span class="cert-value">DUCTHANH WOOD PROCESSING JOINT STOCK COMPANY</span>
-            </div>
-            <div class="cert-row">
-              <span class="cert-label">Tên viết tắt:</span>
-              <span class="cert-value">CÔNG TY CP ĐỨC THÀNH</span>
-            </div>
-            <div class="cert-row">
-              <span class="cert-label">Người đại diện pháp luật:</span>
-              <span class="cert-value">LÊ HẢI LIỄU (Chủ tịch HĐQT)</span>
-            </div>
-            <div class="cert-row">
-              <span class="cert-label">Vốn điều lệ:</span>
-              <span class="cert-value highlight-gold">238.835.570.000 VNĐ</span>
-            </div>
-            <div class="cert-row">
-              <span class="cert-label">Ngành nghề chính:</span>
-              <span class="cert-value">Sản xuất sản phẩm từ gỗ, tre, nứa và đồ chơi trẻ em</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Trust Pillars -->
-        <div class="trust-pillars">
-          <div class="pillar-card">
-            <div class="pillar-icon">
-              <i class="fa-solid fa-building-columns"></i>
-            </div>
-            <div class="pillar-content">
-              <h4>Giấy Phép Hoạt Động Hợp Pháp</h4>
-              <p>Được cơ quan nhà nước thẩm định và cấp phép xuất khẩu lao động chính thức. Cam kết không qua trung gian hay cò mồi.</p>
-            </div>
-          </div>
-
-          <div class="pillar-card">
-            <div class="pillar-icon">
-              <i class="fa-solid fa-hand-holding-dollar"></i>
-            </div>
-            <div class="pillar-content">
-              <h4>Hỗ Trợ Vay Vốn Ngân Hàng</h4>
-              <p>Liên kết với Agribank, VietinBank hỗ trợ thủ tục làm hồ sơ vay vốn 80-100% chi phí xuất cảnh với lãi suất ưu đãi.</p>
-            </div>
-          </div>
-
-          <div class="pillar-card">
-            <div class="pillar-icon">
-              <i class="fa-solid fa-user-shield"></i>
-            </div>
-            <div class="pillar-content">
-              <h4>Đồng Hành 24/7 Tại Nước Ngoài</h4>
-              <p>Có văn phòng đại diện tại Nhật Bản, Hàn Quốc, Đài Loan hỗ trợ trực tiếp lao động về đời sống, pháp lý và gia hạn visa.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION: MARKETS (THỊ TRƯỜNG XKLĐ) -->
-  <section class="markets-section" id="markets">
-    <div class="container">
-      <div class="text-center">
-        <span class="section-tag"><i class="fa-solid fa-globe"></i> Thị Trường Quốc Tế</span>
-        <h2 class="section-title">Các Thị Trường Xuất Khẩu Lao Động Trọng Điểm</h2>
-        <p class="section-subtitle">Đức Thành hợp tác trực tiếp với các tập đoàn và nghiệp đoàn uy tín tại Châu Á và Châu Âu.</p>
-      </div>
-
-      <div class="markets-grid">
-        <!-- Market 1: Japan -->
-        <div class="market-card">
-          <div class="market-banner">
-            <img src="assets/images/tech_workforce.jpg" alt="XKLĐ Nhật Bản Đức Thành">
-            <div class="market-flag">🇯🇵 Nhật Bản</div>
-          </div>
-          <div class="market-body">
-            <h3 class="market-title">Nhật Bản (Thực tập sinh / Kỹ sư)</h3>
-            <div class="market-salary">32 - 50 Triệu / Tháng</div>
-            <ul class="market-features">
-              <li><i class="fa-solid fa-check"></i> Visa Tokutei Ginou 1 & 2</li>
-              <li><i class="fa-solid fa-check"></i> Ngành: Cơ khí, Điện tử, Xây dựng, Hộ lý</li>
-              <li><i class="fa-solid fa-check"></i> Thưởng hàng năm, bảo hiểm đầy đủ</li>
-            </ul>
-            <div class="market-footer">
-              <button class="btn btn-outline js-open-modal" style="width:100%; color:var(--primary-navy);" data-job="Nhật Bản">Đăng Ký Đi Nhật</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Market 2: Korea -->
-        <div class="market-card">
-          <div class="market-banner">
-            <img src="assets/images/hero.jpg" alt="XKLĐ Hàn Quốc Đức Thành">
-            <div class="market-flag">🇰🇷 Hàn Quốc</div>
-          </div>
-          <div class="market-body">
-            <h3 class="market-title">Hàn Quốc (Visa E-7 / E-9)</h3>
-            <div class="market-salary">40 - 65 Triệu / Tháng</div>
-            <ul class="market-features">
-              <li><i class="fa-solid fa-check"></i> Visa E7-3 Đóng tàu, Kỹ sư E-7</li>
-              <li><i class="fa-solid fa-check"></i> Chế độ làm thêm giờ cao</li>
-              <li><i class="fa-solid fa-check"></i> Bảo lãnh người thân sau 1 năm</li>
-            </ul>
-            <div class="market-footer">
-              <button class="btn btn-outline js-open-modal" style="width:100%; color:var(--primary-navy);" data-job="Hàn Quốc">Đăng Ký Đi Hàn</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Market 3: Taiwan -->
-        <div class="market-card">
-          <div class="market-banner">
-            <img src="assets/images/academy.jpg" alt="XKLĐ Đài Loan Đức Thành">
-            <div class="market-flag">🇹🇼 Đài Loan</div>
-          </div>
-          <div class="market-body">
-            <h3 class="market-title">Đài Loan (Công nghiệp & Hộ lý)</h3>
-            <div class="market-salary">22 - 32 Triệu / Tháng</div>
-            <ul class="market-features">
-              <li><i class="fa-solid fa-check"></i> Chi phí xuất cảnh thấp, bay nhanh</li>
-              <li><i class="fa-solid fa-check"></i> Đào tạo tiếng cấp tốc 1-2 tháng</li>
-              <li><i class="fa-solid fa-check"></i> Hộ lý gia đình & Bệnh viện lớn</li>
-            </ul>
-            <div class="market-footer">
-              <button class="btn btn-outline js-open-modal" style="width:100%; color:var(--primary-navy);" data-job="Đài Loan">Đăng Ký Đi Đài Loan</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Market 4: Europe -->
-        <div class="market-card">
-          <div class="market-banner">
-            <img src="assets/images/healthcare.jpg" alt="XKLĐ Đức & Châu Âu Đức Thành">
-            <div class="market-flag">🇩🇪 Đức & Châu Âu</div>
-          </div>
-          <div class="market-body">
-            <h3 class="market-title">Đức & Châu Âu (Điều dưỡng & Nghề)</h3>
-            <div class="market-salary">55 - 80 Triệu / Tháng</div>
-            <ul class="market-features">
-              <li><i class="fa-solid fa-check"></i> Miễn học phí đào tạo tại Đức</li>
-              <li><i class="fa-solid fa-check"></i> Trợ cấp học nghề $1,200 - $1,500/tháng</li>
-              <li><i class="fa-solid fa-check"></i> Cơ hội định cư lâu dài sau 5 năm</li>
-            </ul>
-            <div class="market-footer">
-              <button class="btn btn-outline js-open-modal" style="width:100%; color:var(--primary-navy);" data-job="Đức & Châu Âu">Đăng Ký Đi Châu Âu</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION: HOT RECRUITMENT ORDERS -->
-  <section class="jobs-section" id="jobs">
-    <div class="container">
-      <div class="text-center">
-        <span class="section-tag"><i class="fa-solid fa-fire"></i> Tuyển Dụng Mới Nhất</span>
-        <h2 class="section-title">Các Đơn Hàng HOT Đang Phỏng Vấn</h2>
-        <p class="section-subtitle">Hơn 50+ đơn hàng tuyển dụng trực tiếp trong tháng. Đăng ký ngay để nhận lịch phỏng vấn sớm nhất!</p>
-      </div>
-
-      <div class="filter-tabs">
-        <button class="tab-btn active" data-filter="all">Tất Cả Đơn Hàng</button>
-        <button class="tab-btn" data-filter="japan">Nhật Bản 🇯🇵</button>
-        <button class="tab-btn" data-filter="korea">Hàn Quốc 🇰🇷</button>
-        <button class="tab-btn" data-filter="taiwan">Đài Loan 🇹🇼</button>
-        <button class="tab-btn" data-filter="europe">Châu Âu 🇩🇪</button>
-      </div>
-
-      <div class="jobs-grid">
-        <!-- Job Card 1 -->
-        <div class="job-card" data-category="japan">
-          <span class="job-badge-hot">Phỏng Vấn Trực Tiếp</span>
-          <span class="job-market-tag">🇯🇵 NHẬT BẢN - TOKUTEI GINOU</span>
-          <h3 class="job-title">Kỹ Sư Lắp Ráp Linh Kiện Điện Tử Kanagawa</h3>
-          <div class="job-salary-box">
-            <div class="job-salary-amount">38.000.000 VNĐ / Tháng</div>
-            <div class="job-salary-sub">Chưa tính làm thêm (Tăng ca 30-40h/tháng)</div>
-          </div>
-          <div class="job-meta-list">
-            <div class="job-meta-item"><span>Số lượng tuyển:</span><span>15 Nam / Nữ</span></div>
-            <div class="job-meta-item"><span>Độ tuổi:</span><span>18 - 32 tuổi</span></div>
-            <div class="job-meta-item"><span>Địa điểm:</span><span>Kanagawa, Japan</span></div>
-            <div class="job-meta-item"><span>Hạn nộp hồ sơ:</span><span>28/09/2026</span></div>
-          </div>
-          <div class="job-action">
-            <button class="btn btn-primary js-open-modal" style="width:100%;" data-job="Kỹ Sư Điện Tử Kanagawa (Nhật Bản)">Ứng Tuyển Ngay</button>
-          </div>
-        </div>
-
-        <!-- Job Card 2 -->
-        <div class="job-card" data-category="korea">
-          <span class="job-badge-hot">Lương Cao</span>
-          <span class="job-market-tag">🇰🇷 HÀN QUỐC - VISA E7-3</span>
-          <h3 class="job-title">Thợ Hàn 3G/4G Đóng Tàu Ulsan</h3>
-          <div class="job-salary-box">
-            <div class="job-salary-amount">52.000.000 VNĐ / Tháng</div>
-            <div class="job-salary-sub">Thưởng 2 tháng lương/năm + Bao ăn ở</div>
-          </div>
-          <div class="job-meta-list">
-            <div class="job-meta-item"><span>Số lượng tuyển:</span><span>30 Nam</span></div>
-            <div class="job-meta-item"><span>Độ tuổi:</span><span>22 - 40 tuổi</span></div>
-            <div class="job-meta-item"><span>Địa điểm:</span><span>Ulsan, Korea</span></div>
-            <div class="job-meta-item"><span>Hạn nộp hồ sơ:</span><span>30/09/2026</span></div>
-          </div>
-          <div class="job-action">
-            <button class="btn btn-primary js-open-modal" style="width:100%;" data-job="Thợ Hàn E-7 Ulsan (Hàn Quốc)">Ứng Tuyển Ngay</button>
-          </div>
-        </div>
-
-        <!-- Job Card 3 -->
-        <div class="job-card" data-category="europe">
-          <span class="job-badge-hot">Miễn 100% Học Phí</span>
-          <span class="job-market-tag">🇩🇪 ĐỨC - ĐIỀU DƯỠNG VIÊN</span>
-          <h3 class="job-title">Điều Dưỡng Viên Bệnh Viện Berlin</h3>
-          <div class="job-salary-box">
-            <div class="job-salary-amount">65.000.000 VNĐ / Tháng</div>
-            <div class="job-salary-sub">Miễn học phí + Trợ cấp học 35tr/tháng</div>
-          </div>
-          <div class="job-meta-list">
-            <div class="job-meta-item"><span>Số lượng tuyển:</span><span>20 Nam / Nữ</span></div>
-            <div class="job-meta-item"><span>Độ tuổi:</span><span>19 - 30 tuổi</span></div>
-            <div class="job-meta-item"><span>Địa điểm:</span><span>Berlin, Germany</span></div>
-            <div class="job-meta-item"><span>Hạn nộp hồ sơ:</span><span>15/10/2026</span></div>
-          </div>
-          <div class="job-action">
-            <button class="btn btn-primary js-open-modal" style="width:100%;" data-job="Điều Dưỡng Viên Berlin (Đức)">Ứng Tuyển Ngay</button>
-          </div>
-        </div>
-
-        <!-- Job Card 4 -->
-        <div class="job-card" data-category="taiwan">
-          <span class="job-badge-hot">Bay Nhanh</span>
-          <span class="job-market-tag">🇹🇼 ĐÀI LOAN - CÔNG NGHIỆP</span>
-          <h3 class="job-title">Công Nhân Chế Tạo Linh Kiện Ô Tô Đài Trung</h3>
-          <div class="job-salary-box">
-            <div class="job-salary-amount">26.000.000 VNĐ / Tháng</div>
-            <div class="job-salary-sub">Tăng ca 40-50h/tháng, thu nhập tới 32tr</div>
-          </div>
-          <div class="job-meta-list">
-            <div class="job-meta-item"><span>Số lượng tuyển:</span><span>25 Nam / Nữ</span></div>
-            <div class="job-meta-item"><span>Độ tuổi:</span><span>18 - 35 tuổi</span></div>
-            <div class="job-meta-item"><span>Địa điểm:</span><span>Đài Trung, Đài Loan</span></div>
-            <div class="job-meta-item"><span>Hạn nộp hồ sơ:</span><span>25/09/2026</span></div>
-          </div>
-          <div class="job-action">
-            <button class="btn btn-primary js-open-modal" style="width:100%;" data-job="Công Nhân Linh Kiện Đài Trung (Đài Loan)">Ứng Tuyển Ngay</button>
-          </div>
-        </div>
-
-        <!-- Job Card 5 -->
-        <div class="job-card" data-category="japan">
-          <span class="job-badge-hot">Thực Tập Sinh 3 Năm</span>
-          <span class="job-market-tag">🇯🇵 NHẬT BẢN - NÔNG NGHIỆP CÔNG NGHỆ CAO</span>
-          <h3 class="job-title">Trồng & Chế Biến Nông Sản Chiba</h3>
-          <div class="job-salary-box">
-            <div class="job-salary-amount">34.000.000 VNĐ / Tháng</div>
-            <div class="job-salary-sub">Nhà ở hiện đại + Làm thêm ổn định</div>
-          </div>
-          <div class="job-meta-list">
-            <div class="job-meta-item"><span>Số lượng tuyển:</span><span>12 Nữ</span></div>
-            <div class="job-meta-item"><span>Độ tuổi:</span><span>18 - 30 tuổi</span></div>
-            <div class="job-meta-item"><span>Địa điểm:</span><span>Chiba, Japan</span></div>
-            <div class="job-meta-item"><span>Hạn nộp hồ sơ:</span><span>05/10/2026</span></div>
-          </div>
-          <div class="job-action">
-            <button class="btn btn-primary js-open-modal" style="width:100%;" data-job="Nông Nghiệp Chiba (Nhật Bản)">Ứng Tuyển Ngay</button>
-          </div>
-        </div>
-
-        <!-- Job Card 6 -->
-        <div class="job-card" data-category="korea">
-          <span class="job-badge-hot">Tuyển Gấp</span>
-          <span class="job-market-tag">🇰🇷 HÀN QUỐC - KỸ SƯ CNTT / CƠ KHÍ</span>
-          <h3 class="job-title">Kỹ Sư Thiết Kế Cơ Khí Seoul</h3>
-          <div class="job-salary-box">
-            <div class="job-salary-amount">60.000.000 VNĐ / Tháng</div>
-            <div class="job-salary-sub">Tốt nghiệp CĐ/ĐH chuyên ngành cơ khí</div>
-          </div>
-          <div class="job-meta-list">
-            <div class="job-meta-item"><span>Số lượng tuyển:</span><span>10 Nam / Nữ</span></div>
-            <div class="job-meta-item"><span>Độ tuổi:</span><span>22 - 35 tuổi</span></div>
-            <div class="job-meta-item"><span>Địa điểm:</span><span>Seoul, Korea</span></div>
-            <div class="job-meta-item"><span>Hạn nộp hồ sơ:</span><span>20/10/2026</span></div>
-          </div>
-          <div class="job-action">
-            <button class="btn btn-primary js-open-modal" style="width:100%;" data-job="Kỹ Sư Cơ Khí Seoul (Hàn Quốc)">Ứng Tuyển Ngay</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION: 6-STEP PROCESS -->
-  <section class="process-section">
-    <div class="container">
-      <div class="text-center">
-        <span class="section-tag"><i class="fa-solid fa-list-check"></i> Lộ Trình Rõ Ràng</span>
-        <h2 class="section-title">Quy Trình 6 Bước Xuất Cảnh An Toàn Tại Đức Thành</h2>
-        <p class="section-subtitle">Đồng hành cùng người lao động từ khâu tư vấn ban đầu cho đến suốt thời gian làm việc tại nước ngoài.</p>
-      </div>
-
-      <div class="process-grid">
-        <div class="process-step">
-          <div class="step-num">1</div>
-          <h3 class="step-title">Tư Vấn & Đăng Ký</h3>
-          <p class="step-desc">Tư vấn chọn thị trường, mức lương và ngành nghề phù hợp năng lực & nguyện vọng.</p>
-        </div>
-
-        <div class="process-step">
-          <div class="step-num">2</div>
-          <h3 class="step-title">Khám Sức Khỏe</h3>
-          <p class="step-desc">Khám sức khỏe tổng quát tại các bệnh viện uy tín đạt chuẩn xuất khẩu lao động.</p>
-        </div>
-
-        <div class="process-step">
-          <div class="step-num">3</div>
-          <h3 class="step-title">Đào Tạo Cấp Tốc</h3>
-          <p class="step-desc">Học ngoại ngữ (Nhật/Hàn/Đức) và kỹ năng nghề nghiệp tại Trung tâm đào tạo Đức Thành.</p>
-        </div>
-
-        <div class="process-step">
-          <div class="step-num">4</div>
-          <h3 class="step-title">Phỏng Vấn Tuyển Dụng</h3>
-          <p class="step-desc">Tham gia phỏng vấn trực tiếp hoặc qua Zoom với chủ sử dụng lao động nước ngoài.</p>
-        </div>
-
-        <div class="process-step">
-          <div class="step-num">5</div>
-          <h3 class="step-title">Thủ Tục Visa & Bay</h3>
-          <p class="step-desc">Đức Thành hỗ trợ hoàn thiện hồ sơ, xin Visa, vé máy bay và hướng dẫn xuất cảnh.</p>
-        </div>
-
-        <div class="process-step">
-          <div class="step-num">6</div>
-          <h3 class="step-title">Hỗ Trợ Tại Nước Ngoài</h3>
-          <p class="step-desc">Đại diện Đức Thành tại bản địa đón tại sân bay, sắp xếp chỗ ở và hỗ trợ suốt hợp đồng.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION: SALARY CALCULATOR & SIMULATOR -->
-  <section class="calc-section" id="calculator">
-    <div class="container">
-      <div class="text-center">
-        <span class="section-tag" style="background:rgba(212,175,55,0.15); color:#fde047; border-color:rgba(212,175,55,0.3);"><i class="fa-solid fa-calculator"></i> Công Cụ Dự Tính</span>
-        <h2 class="section-title" style="color:#ffffff;">Tính Toán Thu Nhập & Tích Lũy Dự Kiến</h2>
-        <p class="section-subtitle" style="color:#cbd5e1;">Lựa chọn thị trường và thời gian hợp đồng để ước tính khoản tiền bạn sẽ tích lũy được sau khi trừ chi phí sinh hoạt.</p>
-      </div>
-
-      <div class="calc-box">
-        <div class="calc-inputs">
-          <div class="form-group">
-            <label for="calcMarket"><i class="fa-solid fa-earth-asia"></i> Chọn Thị Trường Xuất Khẩu:</label>
-            <select id="calcMarket" class="form-select">
-              <option value="japan">Nhật Bản (Thực tập sinh / Tokutei)</option>
-              <option value="korea">Hàn Quốc (Visa E-7 / E-9)</option>
-              <option value="taiwan">Đài Loan (Công nghiệp / Hộ lý)</option>
-              <option value="europe">Đức & Châu Âu (Điều dưỡng / Kỹ thuật)</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="calcDuration"><i class="fa-solid fa-clock"></i> Thời Gian Hợp Đồng:</label>
-            <select id="calcDuration" class="form-select">
-              <option value="3">3 Năm (Chuẩn Thực tập sinh / Công nhân)</option>
-              <option value="5">5 Năm (Kỹ sư / Tokutei Ginou)</option>
-              <option value="1">1 Năm (Hợp đồng ngắn hạn)</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="calcOt"><i class="fa-solid fa-user-clock"></i> Số Giờ Tăng Ca Dự Kiến: <strong id="otValDisp" class="highlight-gold">30 giờ/tháng</strong></label>
-            <input type="range" id="calcOt" class="range-slider" min="0" max="50" value="30">
-          </div>
-        </div>
-
-        <div class="calc-results">
-          <div class="res-header"><i class="fa-solid fa-chart-line"></i> Ước Tính Chi Tiết Hàng Tháng</div>
-          <div class="res-item">
-            <span class="res-label">Lương cơ bản hàng tháng:</span>
-            <span class="res-val" id="resBaseSalary">32 triệu VNĐ/tháng</span>
-          </div>
-          <div class="res-item">
-            <span class="res-label">Lương tăng ca dự kiến:</span>
-            <span class="res-val" id="resOtSalary" style="color:#34d399;">+7.5 triệu VNĐ/tháng</span>
-          </div>
-          <div class="res-item">
-            <span class="res-label">Chi phí ăn ở, sinh hoạt:</span>
-            <span class="res-val" id="resLivingCost" style="color:#f87171;">-10 triệu VNĐ/tháng</span>
-          </div>
-
-          <div class="res-total-box">
-            <div class="res-total-label">Tổng Tiền Tích Lũy Dự Kiến Sau Hợp Đồng:</div>
-            <div class="res-total-val" id="resTotalNet">~ 1.062 Triệu VNĐ</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION: ACADEMY SHOWCASE -->
-  <section class="academy-section" id="academy">
-    <div class="container">
-      <div class="academy-grid">
-        <div class="academy-gallery">
-          <div class="gallery-img large">
-            <img src="assets/images/academy.jpg" alt="Trung tâm đào tạo Đức Thành">
-          </div>
-          <div class="gallery-img">
-            <img src="assets/images/tech_workforce.jpg" alt="Thực hành nghề Đức Thành">
-          </div>
-          <div class="gallery-img">
-            <img src="assets/images/healthcare.jpg" alt="Đào tạo tiếng Nhật Đức Thành">
-          </div>
-        </div>
-
-        <div class="academy-content">
-          <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Cơ Sở Vật Chất</span>
-          <h2 class="section-title">Trung Tâm Đào Tạo Nghề & Ngoại Ngữ Chuẩn Quốc Tế</h2>
-          <p style="color:var(--text-muted); margin-bottom:1.5rem;">
-            Đức Thành sở hữu cơ sở đào tạo quy mô hiện đại, ký túc xá khép kín sạch sẽ. Học viên được học tập trực tiếp với giáo viên bản xứ Nhật Bản, Hàn Quốc, Đức trước khi xuất cảnh.
-          </p>
-
-          <div class="academy-features">
-            <div class="academy-feature-item">
-              <div class="af-icon"><i class="fa-solid fa-book-open"></i></div>
-              <div>
-                <strong style="color:var(--primary-navy); display:block;">Đào Tạo Ngoại Ngữ Chuyên Sâu</strong>
-                <span style="font-size:0.88rem; color:var(--text-muted);">Giúp học viên đạt chứng chỉ N4/N3 tiếng Nhật, TOPIK 2 tiếng Hàn, B1 tiếng Đức nhanh chóng.</span>
-              </div>
-            </div>
-
-            <div class="academy-feature-item">
-              <div class="af-icon"><i class="fa-solid fa-wrench"></i></div>
-              <div>
-                <strong style="color:var(--primary-navy); display:block;">Rèn Luyện Tay Nghề & Văn Hóa</strong>
-                <span style="font-size:0.88rem; color:var(--text-muted);">Đào tạo kỹ năng thực hành hàn, lắp ráp, điều dưỡng và giáo dục định hướng tác phong làm việc chuẩn mực.</span>
-              </div>
-            </div>
-
-            <div class="academy-feature-item">
-              <div class="af-icon"><i class="fa-solid fa-bed"></i></div>
-              <div>
-                <strong style="color:var(--primary-navy); display:block;">Ký Túc Xá & Dinh Dưỡng Đạt Chuẩn</strong>
-                <span style="font-size:0.88rem; color:var(--text-muted);">Khu nội trú trang bị điều hòa, căng tin đáp ứng bữa ăn đầy đủ dinh dưỡng cho 500+ học viên.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION: FAQ ACCORDION -->
-  <section class="faq-section" id="faq">
-    <div class="container">
-      <div class="text-center">
-        <span class="section-tag"><i class="fa-solid fa-circle-question"></i> Giải Đáp Thắc Mắc</span>
-        <h2 class="section-title">Câu Hỏi Thường Gặp Về XKLĐ Đức Thành</h2>
-        <p class="section-subtitle">Giải đáp các băn khoăn phổ biến của người lao động và phụ huynh.</p>
-      </div>
-
-      <div class="faq-list">
-        <div class="faq-item active">
-          <div class="faq-question">
-            <span>1. Chi phí đi xuất khẩu lao động tại Đức Thành là bao nhiêu?</span>
-            <i class="fa-solid fa-chevron-down"></i>
-          </div>
-          <div class="faq-answer">
-            Chi phí phụ thuộc vào thị trường (Nhật Bản, Hàn Quốc, Đài Loan hay Châu Âu) và chương trình thực tập sinh hay kỹ sư. CTY CP Đức Thành (MST: 0301449014) cam kết thu đúng quy định của Bộ Lao động, công khai minh bạch 100% hợp đồng, không phát sinh chi phí ngoài hợp đồng.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question">
-            <span>2. Chưa biết tiếng Nhật/Hàn/Đức thì có đăng ký tham gia được không?</span>
-            <i class="fa-solid fa-chevron-down"></i>
-          </div>
-          <div class="faq-answer">
-            Hoàn toàn được! Bạn chưa cần biết tiếng trước khi đăng ký. Đức Thành có Trung tâm đào tạo ngôn ngữ từ cơ bản đến nâng cao, đảm bảo học viên đạt trình độ giao tiếp và phỏng vấn đỗ đơn hàng chỉ sau 2-4 tháng.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question">
-            <span>3. Đức Thành có hỗ trợ thủ tục vay vốn ngân hàng không?</span>
-            <i class="fa-solid fa-chevron-down"></i>
-          </div>
-          <div class="faq-answer">
-            Có! Đức Thành hỗ trợ cung cấp trọn bộ hồ sơ pháp lý, giấy xác nhận trúng tuyển để người lao động tiến hành làm thủ tục vay vốn tại Ngân hàng Nông nghiệp & PTNT (Agribank) hoặc Ngân hàng Chính sách Xã hội địa phương với hạn mức vay lên đến 80-100% chi phí.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question">
-            <span>4. Độ tuổi tối đa tham gia xuất khẩu lao động là bao nhiêu?</span>
-            <i class="fa-solid fa-chevron-down"></i>
-          </div>
-          <div class="faq-answer">
-            Độ tuổi tham gia thông thường từ 18 đến 35 tuổi. Đối với một số đơn hàng kỹ sư, tay nghề cao (Hàn Quốc E-7, thợ hàn, cơ khí, điều dưỡng Châu Âu), Đức Thành tiếp nhận lao động đến 40 tuổi.
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION: CONSULTATION REGISTRATION FORM -->
-  <section class="contact-section" id="contact">
-    <div class="container">
-      <div class="contact-card">
-        <div class="contact-form-box">
-          <span class="section-tag"><i class="fa-solid fa-headset"></i> Tư Vấn Miễn Phí</span>
-          <h2 style="font-size:1.75rem; font-weight:800; color:var(--primary-navy); margin-bottom:0.5rem;">Đăng Ký Tư Vấn XKLĐ Mới Nhất</h2>
-          <p style="font-size:0.9rem; color:var(--text-muted);">Để lại thông tin bên dưới, chuyên viên tư vấn Đức Thành sẽ gọi điện tư vấn chi tiết đơn hàng phù hợp trong 15 phút.</p>
-
-          <form class="js-reg-form" style="margin-top:1.5rem;">
-            <div class="form-grid">
-              <div class="form-group">
-                <label style="color:var(--text-main);">Họ và tên *</label>
-                <input type="text" class="form-input light-input" placeholder="Ví dụ: Nguyễn Văn An" required>
-              </div>
-
-              <div class="form-group">
-                <label style="color:var(--text-main);">Số điện thoại Zalo *</label>
-                <input type="tel" class="form-input light-input" placeholder="Ví dụ: 0912 345 678" required>
-              </div>
-
-              <div class="form-group">
-                <label style="color:var(--text-main);">Năm sinh</label>
-                <input type="text" class="form-input light-input" placeholder="Ví dụ: 2000">
-              </div>
-
-              <div class="form-group">
-                <label style="color:var(--text-main);">Thị trường quan tâm</label>
-                <select class="form-select light-input">
-                  <option>Nhật Bản 🇯🇵</option>
-                  <option>Hàn Quốc 🇰🇷</option>
-                  <option>Đài Loan 🇹🇼</option>
-                  <option>Đức & Châu Âu 🇩🇪</option>
-                </select>
-              </div>
-
-              <div class="form-group full-width">
-                <label style="color:var(--text-main);">Ghi chú thêm (nếu có)</label>
-                <input type="text" class="form-input light-input" placeholder="Nguyện vọng ngành nghề, nơi ở hiện tại...">
-              </div>
-            </div>
-
-            <button type="submit" class="btn btn-gold" style="width:100%; margin-top:1.5rem;">
-              <i class="fa-solid fa-paper-plane"></i> Gửi Yêu Cầu Tư Vấn Ngay
-            </button>
-          </form>
-        </div>
-
-        <!-- Official Company Contact Info -->
-        <div class="contact-info-box">
-          <div>
-            <h3 style="font-size:1.4rem; font-weight:800; margin-bottom:0.5rem; color:#ffffff;">CÔNG TY CỔ PHẦN CHẾ BIẾN GỖ ĐỨC THÀNH</h3>
-            <p style="font-size:0.85rem; color:#cbd5e1;">DUCTHANH WOOD PROCESSING JOINT STOCK COMPANY</p>
-            <span class="top-badge-mst" style="margin-top:0.75rem; display:inline-block;">MST: 0301449014</span>
-
-            <div class="contact-info-list">
-              <div class="c-info-item">
-                <div class="c-info-icon"><i class="fa-solid fa-location-dot"></i></div>
-                <div>
-                  <strong style="display:block; font-size:0.9rem;">Trụ sở chính:</strong>
-                  <span style="font-size:0.85rem; color:#cbd5e1;">221/4 Phan Huy Ích, Phường An Hội Tây, Thành phố Hồ Chí Minh, Việt Nam</span>
+    <header class="header">
+        <div class="container navbar">
+            <a class="brand" href="#noi-dung">
+                <span class="brand-mark">TA</span>
+                <span class="brand-name">
+                    <strong>THỰC PHẨM &amp; GIA VỊ</strong>
+                    <span>TA Foods and Spices</span>
+                </span>
+            </a>
+            <nav class="nav" aria-label="Điều hướng chính">
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Mở menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <div id="nav-links" class="nav-links">
+                    <a href="#gioi-thieu">Giới thiệu</a>
+                    <a href="#linh-vuc">Lĩnh vực</a>
+                    <a href="#dia-chi">Địa chỉ</a>
+                    <a href="#phap-ly">Pháp lý</a>
+                    <a href="#lien-he">Liên hệ</a>
+                    <a class="nav-call" href="tel:+84567603394">+84 567 603 394</a>
                 </div>
-              </div>
+            </nav>
+        </div>
+    </header>
 
-              <div class="c-info-item">
-                <div class="c-info-icon"><i class="fa-solid fa-phone"></i></div>
+    <main id="noi-dung">
+        <section class="hero">
+            <div class="container hero-grid">
                 <div>
-                  <strong style="display:block; font-size:0.9rem;">Điện thoại văn phòng:</strong>
-                  <span style="font-size:0.85rem; color:#cbd5e1;">+84562401411 | Fax: 028 3589 4288</span>
+                    <p class="eyebrow"><span class="dot"></span> Công ty cổ phần · TP. Hồ Chí Minh</p>
+                    <h1>Công ty Cổ phần Thực phẩm và Gia vị TA</h1>
+                    <p class="hero-en">TA Foods and Spices Joint Stock Company</p>
+                    <p class="lede">Doanh nghiệp đăng ký lần đầu ngày 01/03/2023, mã số 0317710591, vốn điều lệ 200.000.000.000 đồng. Hồ sơ thuế ghi nhận tình trạng đang hoạt động.</p>
+                    <div class="actions">
+                        <a class="btn btn-primary" href="tel:+84567603394">Gọi +84 567 603 394</a>
+                        <a class="btn btn-secondary" href="#phap-ly">Xem hồ sơ pháp lý</a>
+                    </div>
                 </div>
-              </div>
-
-              <div class="c-info-item">
-                <div class="c-info-icon"><i class="fa-solid fa-envelope"></i></div>
-                <div>
-                  <strong style="display:block; font-size:0.9rem;">Email chính thức:</strong>
-                  <span style="font-size:0.85rem; color:#cbd5e1;">joyw29560@gmail.com</span>
-                </div>
-              </div>
-
-              <div class="c-info-item">
-                <div class="c-info-icon"><i class="fa-solid fa-globe"></i></div>
-                <div>
-                  <strong style="display:block; font-size:0.9rem;">Website:</strong>
-                  <span style="font-size:0.85rem; color:#cbd5e1;">www.goducthanh.com | www.winwintoys.com</span>
-                </div>
-              </div>
+                <aside class="dossier" aria-label="Tóm tắt hồ sơ doanh nghiệp">
+                    <svg class="sprig" viewBox="0 0 160 180" aria-hidden="true">
+                        <path d="M82 168C82 120 78 92 78 46" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                        <ellipse cx="58" cy="78" rx="26" ry="11" transform="rotate(-42 58 78)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                        <ellipse cx="108" cy="98" rx="26" ry="11" transform="rotate(38 108 98)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                        <ellipse cx="54" cy="118" rx="22" ry="10" transform="rotate(-28 54 118)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                        <circle cx="78" cy="40" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                    </svg>
+                    <p class="dossier-kicker">Hồ sơ doanh nghiệp</p>
+                    <p class="dossier-code">0317710591</p>
+                    <dl>
+                        <div>
+                            <dt>Tình trạng</dt>
+                            <dd><span class="status">Đang hoạt động</span></dd>
+                        </div>
+                        <div>
+                            <dt>Đăng ký lần đầu</dt>
+                            <dd>01/03/2023</dd>
+                        </div>
+                        <div>
+                            <dt>Vốn điều lệ</dt>
+                            <dd>200 tỷ đồng</dd>
+                        </div>
+                        <div>
+                            <dt>Cổ phần</dt>
+                            <dd>20.000.000</dd>
+                        </div>
+                        <div>
+                            <dt>Người đại diện</dt>
+                            <dd>Trần Lê Nguyên</dd>
+                        </div>
+                    </dl>
+                </aside>
             </div>
-          </div>
+        </section>
 
-          <div style="font-size:0.8rem; color:#94a3b8; border-top:1px solid rgba(255,255,255,0.1); padding-top:1rem;">
-            Đại diện pháp luật: <strong>LÊ HẢI LIỄU (Chủ tịch HĐQT)</strong><br>
-            Vốn điều lệ: 238.835.570.000 VNĐ
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-about">
-          <div class="logo">
-            <div class="logo-icon">Đ</div>
-            <div class="logo-text">
-              <span class="logo-title" style="color:#ffffff;">ĐỨC THÀNH</span>
-              <span class="logo-subtitle" style="color:#94a3b8;">CÔNG TY CP ĐỨC THÀNH</span>
+        <section class="stats" aria-label="Số liệu đăng ký">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat"><b>200 tỷ</b><span>Vốn điều lệ đăng ký</span></div>
+                    <div class="stat"><b>20 triệu</b><span>Tổng số cổ phần</span></div>
+                    <div class="stat"><b>10.000 đ</b><span>Mệnh giá mỗi cổ phần</span></div>
+                    <div class="stat"><b>01/03/2023</b><span>Ngày đăng ký lần đầu</span></div>
+                </div>
             </div>
-          </div>
-          <p>CÔNG TY CỔ PHẦN CHẾ BIẾN GỖ ĐỨC THÀNH (Mã số thuế: 0301449014) đơn vị uy tín hàng đầu trong lĩnh vực Xuất khẩu lao động, Cung ứng và quản lý nguồn nhân lực quốc tế.</p>
-          <div style="display:flex; gap:1rem; font-size:1.25rem;">
-            <a href="#" style="color:var(--gold-accent);"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" style="color:var(--gold-accent);"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#" style="color:var(--gold-accent);"><i class="fa-brands fa-tiktok"></i></a>
-          </div>
+        </section>
+
+        <section class="block" id="gioi-thieu">
+            <div class="container">
+                <div class="block-head">
+                    <p class="kicker">Giới thiệu</p>
+                    <h2>Pháp nhân thực phẩm và gia vị, đăng ký tại TP. Hồ Chí Minh.</h2>
+                </div>
+                <div class="about-grid">
+                    <article class="panel">
+                        <p>Công ty Cổ phần Thực phẩm và Gia vị TA hoạt động với tên quốc tế TA Foods and Spices Joint Stock Company và tên viết tắt TA Foods and Spices JSC.</p>
+                        <p>Giấy chứng nhận đăng ký doanh nghiệp ghi nhận lần đăng ký đầu ngày 01 tháng 03 năm 2023. Vốn điều lệ là 200.000.000.000 đồng, bằng chữ hai trăm tỷ đồng, chia thành 20.000.000 cổ phần, mệnh giá 10.000 đồng mỗi cổ phần.</p>
+                        <p>Người đại diện theo pháp luật là ông Trần Lê Nguyên, Chủ tịch hội đồng quản trị, quốc tịch Việt Nam.</p>
+                    </article>
+                    <aside class="panel identity">
+                        <div>
+                            <span class="label">Tên tiếng Việt</span>
+                            <span class="value">Công ty Cổ phần Thực phẩm và Gia vị TA</span>
+                        </div>
+                        <div>
+                            <span class="label">Tên tiếng nước ngoài</span>
+                            <span class="value">TA Foods and Spices Joint Stock Company</span>
+                        </div>
+                        <div>
+                            <span class="label">Tên viết tắt</span>
+                            <span class="value">TA Foods and Spices JSC</span>
+                        </div>
+                        <div>
+                            <span class="label">Mã số doanh nghiệp</span>
+                            <span class="value">0317710591</span>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section class="block" id="linh-vuc" style="padding-top:0;">
+            <div class="container">
+                <div class="block-head">
+                    <p class="kicker">Lĩnh vực</p>
+                    <h2>Đúng phạm vi trong tên đăng ký của công ty.</h2>
+                    <p class="sub">Giấy chứng nhận được dùng để lập trang này không kèm danh mục sản phẩm. Nội dung dưới đây chỉ bám tên pháp lý: thực phẩm và gia vị.</p>
+                </div>
+                <div class="fields">
+                    <article class="field">
+                        <em>01</em>
+                        <h3>Thực phẩm</h3>
+                        <p>Nhóm hàng thứ nhất trong tên công ty. Trang không nêu mặt hàng, nhà máy hay chứng nhận ngoài những gì có trên hồ sơ.</p>
+                    </article>
+                    <article class="field">
+                        <em>02</em>
+                        <h3>Gia vị</h3>
+                        <p>Nhóm hàng thứ hai trong tên công ty, gắn với nguyên liệu chế biến và kinh doanh thực phẩm.</p>
+                    </article>
+                    <article class="field">
+                        <em>03</em>
+                        <h3>Công ty cổ phần</h3>
+                        <p>Vốn điều lệ 200 tỷ đồng, tương ứng 20 triệu cổ phần mệnh giá 10.000 đồng, đăng ký lần đầu năm 2023.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="block" id="dia-chi" style="padding-top:0;">
+            <div class="container">
+                <div class="block-head">
+                    <p class="kicker">Địa chỉ</p>
+                    <h2>Hai địa chỉ, hai nguồn hồ sơ khác nhau.</h2>
+                    <p class="sub">Địa chỉ trên hồ sơ thuế là địa chỉ đang được ghi nhận. Địa chỉ còn lại lấy từ giấy chứng nhận đăng ký lần đầu ngày 01/03/2023.</p>
+                </div>
+                <div class="address-grid">
+                    <article class="panel address-card">
+                        <span class="badge">Hồ sơ thuế · đang ghi nhận</span>
+                        <h3>Lầu 3, Tháp V5, Sunrise City South</h3>
+                        <p>Số 23 Nguyễn Hữu Thọ, Phường Tân Hưng, Thành phố Hồ Chí Minh, Việt Nam.</p>
+                        <p>Cùng địa chỉ này được ghi ở cả mục địa chỉ thuế và mục địa chỉ trên hồ sơ mã số thuế.</p>
+                        <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Sunrise%20City%20South%20Thap%20V5%2023%20Nguyen%20Huu%20Tho%20Tan%20Hung%20Ho%20Chi%20Minh" target="_blank" rel="noopener noreferrer">Mở bản đồ</a></p>
+                    </article>
+                    <article class="panel address-card">
+                        <span class="badge badge-gold">Giấy chứng nhận · đăng ký lần đầu</span>
+                        <h3>Lầu 10, 138-142 Hai Bà Trưng</h3>
+                        <p>Phường Đa Kao, Quận 1, Thành phố Hồ Chí Minh, Việt Nam.</p>
+                        <p>Đây là địa chỉ trụ sở chính trên giấy đăng ký lần đầu, không phải địa chỉ đang đứng trên hồ sơ thuế.</p>
+                        <p><a href="https://www.google.com/maps/search/?api=1&amp;query=138%20Hai%20Ba%20Trung%20Da%20Kao%20Quan%201%20Ho%20Chi%20Minh" target="_blank" rel="noopener noreferrer">Mở bản đồ</a></p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="block legal" id="phap-ly">
+            <div class="container">
+                <div class="block-head">
+                    <p class="kicker">Pháp lý</p>
+                    <h2>Trích yếu giấy chứng nhận và hồ sơ thuế.</h2>
+                    <p class="sub">Các dòng dưới đây được chép từ Giấy chứng nhận đăng ký doanh nghiệp — công ty cổ phần — và từ hồ sơ mã số thuế của cùng mã số 0317710591.</p>
+                </div>
+                <dl class="registry">
+                    <div class="registry-row">
+                        <dt>Mã số doanh nghiệp / mã số thuế</dt>
+                        <dd>0317710591</dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Tên công ty viết bằng tiếng Việt</dt>
+                        <dd>CÔNG TY CỔ PHẦN THỰC PHẨM VÀ GIA VỊ TA</dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Tên công ty viết bằng tiếng nước ngoài</dt>
+                        <dd>TA FOODS AND SPICES JOINT STOCK COMPANY</dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Tên công ty viết tắt</dt>
+                        <dd>TA FOODS AND SPICES JSC</dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Đăng ký lần đầu</dt>
+                        <dd>01/03/2023</dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Tình trạng trên hồ sơ thuế</dt>
+                        <dd>Đang hoạt động</dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Vốn điều lệ</dt>
+                        <dd>200.000.000.000 đồng — Hai trăm tỷ đồng</dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Mệnh giá cổ phần</dt>
+                        <dd>10.000 đồng</dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Tổng số cổ phần</dt>
+                        <dd>20.000.000</dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Người đại diện theo pháp luật</dt>
+                        <dd>TRẦN LÊ NGUYÊN — Chủ tịch hội đồng quản trị</dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Điện thoại doanh nghiệp</dt>
+                        <dd><a href="tel:+84567603394">+84 567 603 394</a></dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Email doanh nghiệp</dt>
+                        <dd><a href="mailto:joyw29560@gmail.com">joyw29560@gmail.com</a></dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Địa chỉ trên hồ sơ thuế</dt>
+                        <dd>Lầu 3, Tháp V5, Sunrise City South, Số 23 Nguyễn Hữu Thọ, Phường Tân Hưng, Thành phố Hồ Chí Minh, Việt Nam</dd>
+                    </div>
+                    <div class="registry-row">
+                        <dt>Địa chỉ trụ sở trên giấy đăng ký lần đầu</dt>
+                        <dd>Lầu 10, 138-142 Hai Bà Trưng, Phường Đa Kao, Quận 1, Thành phố Hồ Chí Minh, Việt Nam</dd>
+                    </div>
+                </dl>
+                <p class="source-note">Trang này là bản giới thiệu do doanh nghiệp sử dụng, không phải giấy tờ do cơ quan đăng ký kinh doanh phát hành.</p>
+
+                <div class="related">
+                    <h3>Doanh nghiệp khác cùng người đại diện</h3>
+                    <p class="sub">Ông Trần Lê Nguyên còn đứng đại diện các doanh nghiệp, chi nhánh và văn phòng dưới đây. Danh sách này không phải cơ cấu công ty con của TA Foods and Spices. Ảnh hồ sơ bị cắt ở cuối nên danh sách có thể chưa đầy đủ.</p>
+                    <ul>
+                        <li>Công ty TNHH Đầu tư Kido</li>
+                        <li>Công ty Cổ phần Đầu tư Lavenue</li>
+                        <li>Công ty TNHH Sản xuất Bao bì Đông Nguyên</li>
+                        <li>Chi nhánh Công ty CP Dầu thực vật Tường An — Nhà máy dầu Vinh</li>
+                        <li>Chi nhánh miền Bắc tại Hưng Yên — Công ty Cổ phần Dầu thực vật Tường An</li>
+                        <li>Văn phòng đại diện Công ty Cổ phần Dầu thực vật Tường An tại Hà Nội</li>
+                        <li>Công ty Cổ phần Dầu thực vật Tường An</li>
+                        <li>Chi nhánh Công ty Cổ phần Dầu thực vật Tường An — Nhà máy dầu Phú Mỹ</li>
+                        <li>Công ty Cổ phần Đầu tư Lavenue (NTNN)</li>
+                        <li>Công ty TNHH Đầu tư Kinh Đô (NTNN)</li>
+                        <li>Công ty Cổ phần Dầu thực vật Tường An (NTNN)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="block" id="lien-he">
+            <div class="container contact-grid">
+                <div class="panel">
+                    <p class="kicker">Liên hệ</p>
+                    <h2>Thông tin liên hệ doanh nghiệp.</h2>
+                    <a class="phone-link" href="tel:+84567603394">+84 567 603 394</a>
+                    <p style="margin-bottom: 0.85rem;"><strong style="color: var(--forest);">Email:</strong> <a href="mailto:joyw29560@gmail.com" style="color: var(--paprika); font-weight: 600; text-decoration: none;">joyw29560@gmail.com</a></p>
+                    <p>Địa chỉ đang ghi trên hồ sơ thuế: Lầu 3, Tháp V5, Sunrise City South, Số 23 Nguyễn Hữu Thọ, Phường Tân Hưng, Thành phố Hồ Chí Minh.</p>
+                </div>
+                <form class="panel" id="contactForm">
+                    <h2>Ghi nhận yêu cầu trên trình duyệt</h2>
+                    <p class="form-note">Biểu mẫu không gửi về máy chủ và không thay cho cuộc gọi.</p>
+                    <div>
+                        <label for="name">Họ và tên</label>
+                        <input id="name" name="name" type="text" autocomplete="name" required placeholder="Nguyễn Văn A">
+                    </div>
+                    <div>
+                        <label for="phone">Số điện thoại</label>
+                        <input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="0900000000">
+                    </div>
+                    <div>
+                        <label for="message">Nội dung</label>
+                        <textarea id="message" name="message" required placeholder="Nội dung cần trao đổi"></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Xem hướng dẫn liên hệ</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h2>CÔNG TY CỔ PHẦN THỰC PHẨM VÀ GIA VỊ TA</h2>
+                    <p>TA Foods and Spices Joint Stock Company<br>MST 0317710591 · Vốn điều lệ 200.000.000.000 đồng</p>
+                </div>
+                <div>
+                    <h2>Mục lục</h2>
+                    <ul>
+                        <li><a href="#gioi-thieu">Giới thiệu</a></li>
+                        <li><a href="#dia-chi">Địa chỉ</a></li>
+                        <li><a href="#phap-ly">Hồ sơ pháp lý</a></li>
+                        <li><a href="#lien-he">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Thông tin liên hệ</h2>
+                    <p><a href="tel:+84567603394">+84 567 603 394</a></p>
+                    <p><a href="mailto:joyw29560@gmail.com">joyw29560@gmail.com</a></p>
+                    <p>Lầu 3, Tháp V5, Sunrise City South, Số 23 Nguyễn Hữu Thọ, Phường Tân Hưng, TP. Hồ Chí Minh.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">© 2023–2026 Công ty Cổ phần Thực phẩm và Gia vị TA. Thông tin pháp lý được trích từ giấy chứng nhận đăng ký lần đầu và hồ sơ mã số thuế.</div>
         </div>
+    </footer>
 
-        <div>
-          <h4 class="footer-title">Thị Trường XKLĐ</h4>
-          <div class="footer-links">
-            <a href="#markets">XKLĐ Nhật Bản</a>
-            <a href="#markets">XKLĐ Hàn Quốc</a>
-            <a href="#markets">XKLĐ Đài Loan</a>
-            <a href="#markets">XKLĐ Đức & Châu Âu</a>
-            <a href="#markets">Cung ứng lao động trong nước</a>
-          </div>
-        </div>
+    <a class="float-call" href="tel:+84567603394" aria-label="Gọi +84 567 603 394">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1.5 1.5 0 0 1 1.5-.36 11 11 0 0 0 3.5.56 1.5 1.5 0 0 1 1.5 1.5V20a1.5 1.5 0 0 1-1.6 1.5A17.5 17.5 0 0 1 2.5 5.6 1.5 1.5 0 0 1 4 4h3.1A1.5 1.5 0 0 1 8.6 5.5a11 11 0 0 0 .56 3.5 1.5 1.5 0 0 1-.36 1.5L6.6 10.8z"/>
+        </svg>
+    </a>
 
-        <div>
-          <h4 class="footer-title">Thông Tin Pháp Lý</h4>
-          <div class="footer-links">
-            <a href="#legal">Mã Số Thuế: 0301449014</a>
-            <a href="#legal">Giấy Chứng Nhận ĐKKD</a>
-            <a href="#legal">Vốn Điều Lệ: 238,8 Tỷ</a>
-            <a href="#legal">Đại Diện: Lê Hải Liễu</a>
-            <a href="#faq">Chính Sách Bảo Mật</a>
-          </div>
-        </div>
+    <div id="toast" class="toast" role="status" aria-live="polite">Cảm ơn bạn đã gửi thông tin! Bạn cũng có thể liên hệ trực tiếp qua email joyw29560@gmail.com hoặc gọi +84 567 603 394.</div>
 
-        <div>
-          <h4 class="footer-title">Trụ Sở Chính</h4>
-          <p style="font-size:0.85rem; color:#94a3b8; line-height:1.6;">
-            221/4 Phan Huy Ích, Phường An Hội Tây, Thành phố Hồ Chí Minh, Việt Nam.<br><br>
-            Hotline: +84562401411<br>
-            Email: joyw29560@gmail.com
-          </p>
-        </div>
-      </div>
+    <script>
+        const header = document.querySelector(".header");
+        const toggle = document.querySelector(".nav-toggle");
+        const links = document.getElementById("nav-links");
+        const toast = document.getElementById("toast");
+        let toastTimer;
 
-      <div class="footer-bottom">
-        <div>© 2026 CÔNG TY CỔ PHẦN CHẾ BIẾN GỖ ĐỨC THÀNH (DUCTHANH WOOD PROCESSING JOINT STOCK COMPANY). Tất cả quyền được bảo lưu.</div>
-        <div>Mã số doanh nghiệp: 0301449014 | Ngày cấp: 24/10/1998 | Thuế Thành phố Hồ Chí Minh</div>
-      </div>
-    </div>
-  </footer>
+        const setMenu = (open) => {
+            links.classList.toggle("is-open", open);
+            toggle.setAttribute("aria-expanded", open ? "true" : "false");
+            toggle.setAttribute("aria-label", open ? "Đóng menu" : "Mở menu");
+        };
 
-  <!-- MODAL CONSULTATION DIALOG -->
-  <div class="modal-overlay" id="consultModal">
-    <div class="modal-card">
-      <div class="modal-close" id="modalClose"><i class="fa-solid fa-xmark"></i></div>
-      <h3 style="font-size:1.5rem; font-weight:800; color:var(--primary-navy); margin-bottom:0.4rem;">Đăng Ký Tư Vấn Đơn Hàng</h3>
-      <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:1.5rem;">Nhập thông tin bên dưới để nhận tư vấn chi tiết từ cán bộ tư vấn Đức Thành.</p>
-
-      <form class="js-reg-form">
-        <div class="form-group" style="margin-bottom:1rem;">
-          <label style="color:var(--text-main);">Họ và tên *</label>
-          <input type="text" class="form-input light-input" placeholder="Nhập họ và tên" required>
-        </div>
-
-        <div class="form-group" style="margin-bottom:1rem;">
-          <label style="color:var(--text-main);">Số điện thoại / Zalo *</label>
-          <input type="tel" class="form-input light-input" placeholder="Nhập số điện thoại" required>
-        </div>
-
-        <div class="form-group" style="margin-bottom:1.5rem;">
-          <label style="color:var(--text-main);">Ghi chú đơn hàng quan tâm</label>
-          <input type="text" id="modalNote" class="form-input light-input" placeholder="Ví dụ: Đơn hàng Kỹ sư Nhật Bản">
-        </div>
-
-        <button type="submit" class="btn btn-primary" style="width:100%;">
-          <i class="fa-solid fa-paper-plane"></i> Gửi Đăng Ký
-        </button>
-      </form>
-    </div>
-  </div>
-
-  <!-- EMBEDDED JAVASCRIPT LOGIC -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-
-      // 1. STATS COUNTER ANIMATION
-      const statNumbers = document.querySelectorAll('.stat-num');
-      let animatedStats = false;
-
-      const animateCounters = () => {
-        statNumbers.forEach(stat => {
-          const target = parseInt(stat.getAttribute('data-target'));
-          const duration = 2000;
-          const stepTime = 30;
-          const steps = duration / stepTime;
-          const increment = target / steps;
-          let current = 0;
-
-          const timer = setInterval(() => {
-            current += increment;
-            if (current >= target) {
-              stat.innerText = target.toLocaleString('vi-VN') + (stat.getAttribute('data-suffix') || '');
-              clearInterval(timer);
-            } else {
-              stat.innerText = Math.floor(current).toLocaleString('vi-VN') + (stat.getAttribute('data-suffix') || '');
-            }
-          }, stepTime);
+        toggle.addEventListener("click", () => setMenu(!links.classList.contains("is-open")));
+        links.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setMenu(false)));
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape") setMenu(false);
         });
-      };
-
-      const heroStatsSection = document.querySelector('.hero-stats');
-      if (heroStatsSection) {
-        const observer = new IntersectionObserver((entries) => {
-          if (entries[0].isIntersecting && !animatedStats) {
-            animatedStats = true;
-            animateCounters();
-          }
-        }, { threshold: 0.3 });
-        observer.observe(heroStatsSection);
-      }
-
-      // 2. JOB CATEGORY FILTER TABS
-      const tabBtns = document.querySelectorAll('.tab-btn');
-      const jobCards = document.querySelectorAll('.job-card');
-
-      tabBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-          tabBtns.forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-
-          const filter = btn.getAttribute('data-filter');
-
-          jobCards.forEach(card => {
-            const category = card.getAttribute('data-category');
-            if (filter === 'all' || category === filter) {
-              card.style.display = 'flex';
-              setTimeout(() => {
-                card.style.opacity = '1';
-                card.style.transform = 'translateY(0)';
-              }, 50);
-            } else {
-              card.style.opacity = '0';
-              card.style.transform = 'translateY(10px)';
-              setTimeout(() => {
-                card.style.display = 'none';
-              }, 300);
-            }
-          });
+        document.addEventListener("click", (event) => {
+            if (!event.target.closest(".nav")) setMenu(false);
         });
-      });
 
-      // 3. INTERACTIVE SALARY CALCULATOR
-      const calcMarket = document.getElementById('calcMarket');
-      const calcDuration = document.getElementById('calcDuration');
-      const calcOt = document.getElementById('calcOt');
-      const otValDisp = document.getElementById('otValDisp');
+        const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 8);
+        onScroll();
+        window.addEventListener("scroll", onScroll, { passive: true });
 
-      const resBaseSalary = document.getElementById('resBaseSalary');
-      const resOtSalary = document.getElementById('resOtSalary');
-      const resLivingCost = document.getElementById('resLivingCost');
-      const resTotalNet = document.getElementById('resTotalNet');
-
-      const marketRates = {
-        japan: { base: 32, otRate: 0.25, living: 10 },
-        korea: { base: 40, otRate: 0.32, living: 12 },
-        taiwan: { base: 22, otRate: 0.18, living: 7 },
-        europe: { base: 55, otRate: 0.42, living: 18 }
-      };
-
-      const calculateSalary = () => {
-        if (!calcMarket || !calcDuration || !calcOt) return;
-
-        const marketKey = calcMarket.value;
-        const months = parseInt(calcDuration.value) * 12;
-        const otHours = parseInt(calcOt.value);
-
-        if (otValDisp) otValDisp.innerText = `${otHours} giờ/tháng`;
-
-        const rateData = marketRates[marketKey] || marketRates.japan;
-        
-        const monthlyBase = rateData.base;
-        const monthlyOt = otHours * rateData.otRate;
-        const monthlyLiving = rateData.living;
-        const monthlyNet = (monthlyBase + monthlyOt) - monthlyLiving;
-
-        const totalNetAccumulated = Math.round(monthlyNet * months);
-
-        if (resBaseSalary) resBaseSalary.innerText = `${monthlyBase} triệu VNĐ/tháng`;
-        if (resOtSalary) resOtSalary.innerText = `+${Math.round(monthlyOt * 10) / 10} triệu VNĐ/tháng`;
-        if (resLivingCost) resLivingCost.innerText = `-${monthlyLiving} triệu VNĐ/tháng`;
-        if (resTotalNet) resTotalNet.innerText = `~ ${totalNetAccumulated.toLocaleString('vi-VN')} Triệu VNĐ`;
-      };
-
-      if (calcMarket) calcMarket.addEventListener('change', calculateSalary);
-      if (calcDuration) calcDuration.addEventListener('change', calculateSalary);
-      if (calcOt) {
-        calcOt.addEventListener('input', calculateSalary);
-        calculateSalary();
-      }
-
-      // 4. FAQ ACCORDION TOGGLE
-      const faqItems = document.querySelectorAll('.faq-item');
-      faqItems.forEach(item => {
-        const question = item.querySelector('.faq-question');
-        question.addEventListener('click', () => {
-          const isActive = item.classList.contains('active');
-          faqItems.forEach(i => i.classList.remove('active'));
-          if (!isActive) {
-            item.classList.add('active');
-          }
+        document.getElementById("contactForm").addEventListener("submit", (event) => {
+            event.preventDefault();
+            toast.classList.add("is-visible");
+            clearTimeout(toastTimer);
+            toastTimer = setTimeout(() => toast.classList.remove("is-visible"), 7000);
         });
-      });
-
-      // 5. MODAL CONSULTATION DIALOG
-      const modalOverlay = document.getElementById('consultModal');
-      const modalClose = document.getElementById('modalClose');
-      const openModalBtns = document.querySelectorAll('.js-open-modal');
-
-      const openModal = (jobTitle = '') => {
-        if (modalOverlay) {
-          modalOverlay.classList.add('active');
-          const targetNote = document.getElementById('modalNote');
-          if (targetNote && jobTitle) {
-            targetNote.value = `Đăng ký ứng tuyển đơn hàng: ${jobTitle}`;
-          }
-        }
-      };
-
-      const closeModal = () => {
-        if (modalOverlay) {
-          modalOverlay.classList.remove('active');
-        }
-      };
-
-      openModalBtns.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-          e.preventDefault();
-          const jobTitle = btn.getAttribute('data-job') || '';
-          openModal(jobTitle);
-        });
-      });
-
-      if (modalClose) modalClose.addEventListener('click', closeModal);
-      if (modalOverlay) {
-        modalOverlay.addEventListener('click', (e) => {
-          if (e.target === modalOverlay) closeModal();
-        });
-      }
-
-      // 6. FORM SUBMISSION & TOAST NOTIFICATION
-      const showToast = (message, title = 'Thành công!') => {
-        let toastBox = document.querySelector('.toast-box');
-        if (!toastBox) {
-          toastBox = document.createElement('div');
-          toastBox.className = 'toast-box';
-          document.body.appendChild(toastBox);
-        }
-
-        const toast = document.createElement('div');
-        toast.className = 'toast';
-        toast.innerHTML = `
-          <i class="fa-solid fa-circle-check" style="color: #10b981; font-size: 1.25rem;"></i>
-          <div>
-            <strong style="display: block; font-size: 0.95rem;">${title}</strong>
-            <span style="font-size: 0.85rem; color: #e2e8f0;">${message}</span>
-          </div>
-        `;
-
-        toastBox.appendChild(toast);
-
-        setTimeout(() => {
-          toast.style.opacity = '0';
-          toast.style.transform = 'translateX(100%)';
-          toast.style.transition = 'all 0.3s ease';
-          setTimeout(() => toast.remove(), 300);
-        }, 4000);
-      };
-
-      const regForms = document.querySelectorAll('.js-reg-form');
-      regForms.forEach(form => {
-        form.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const nameInput = form.querySelector('input[type="text"]');
-          const nameVal = nameInput && nameInput.value ? nameInput.value : 'bạn';
-
-          showToast(`Cảm ơn ${nameVal}! Chuyên viên tư vấn Đức Thành (MST: 0301449014) sẽ liên hệ lại trong thời gian sớm nhất.`, 'Đăng ký thành công!');
-          form.reset();
-          closeModal();
-        });
-      });
-
-      // 7. MOBILE MENU TOGGLE
-      const mobileToggle = document.getElementById('mobileToggle');
-      const navLinks = document.querySelector('.nav-links');
-
-      if (mobileToggle && navLinks) {
-        mobileToggle.addEventListener('click', () => {
-          const isOpen = navLinks.style.display === 'flex';
-          if (isOpen) {
-            navLinks.style.display = 'none';
-          } else {
-            navLinks.style.display = 'flex';
-            navLinks.style.flexDirection = 'column';
-            navLinks.style.position = 'absolute';
-            navLinks.style.top = '80px';
-            navLinks.style.left = '0';
-            navLinks.style.right = '0';
-            navLinks.style.background = '#ffffff';
-            navLinks.style.padding = '1.5rem';
-            navLinks.style.boxShadow = '0 10px 25px rgba(0,0,0,0.1)';
-            navLinks.style.borderBottom = '1px solid #e2e8f0';
-          }
-        });
-      }
-
-    });
-  </script>
+    </script>
 </body>
 </html>
